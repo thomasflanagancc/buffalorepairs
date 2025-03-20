@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>CONTENT_UPDATED_RELAY_631a9922c384e210d6d19883e4013181</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Add parameters to URL Relay (Receive Device)</label>
+        <props>[
+    {
+        "defaultValue": null,
+        "description": "Add parameters to the URL",
+        "fieldType": "json",
+        "label": "Parameters",
+        "name": "params",
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "selectedIndex": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            }
+        },
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Add parameters to the URL",
+  "comment" : ""
+}, {
+  "message" : "Parameters",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 16:43:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>865d110dc3582a107c3abdb4e40131b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add parameters to URL Relay (Receive Device)</sys_name>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name>sys_ux_event_865d110dc3582a107c3abdb4e40131b7</sys_update_name>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 16:43:42</sys_updated_on>
+    </sys_ux_event>
+</record_update>

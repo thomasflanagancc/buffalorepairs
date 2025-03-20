@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="core_company" version="2" view="workspace-buffalo-repairs-0">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Company - Workspace Buffalo Repairs 0" name="core_company" related_list="NULL" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">cedcac8bc398ae10d6d19883e401319d</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>cmdb_model.manufacturer</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-19 18:03:23</sys_created_on>
+            <sys_id>0adcac8bc398ae10d6d19883e401319f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-19 18:03:23</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Company - Workspace Buffalo Repairs 0" name="core_company" related_list="NULL" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">cedcac8bc398ae10d6d19883e401319d</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>pc_vendor_cat_item.vendor</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-19 18:03:23</sys_created_on>
+            <sys_id>42dcac8bc398ae10d6d19883e40131a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-19 18:03:23</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Company - Workspace Buffalo Repairs 0" name="core_company" related_list="NULL" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">cedcac8bc398ae10d6d19883e401319d</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>sys_user.company</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-19 18:03:23</sys_created_on>
+            <sys_id>46dcac8bc398ae10d6d19883e40131a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-19 18:03:23</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Company - Workspace Buffalo Repairs 0</calculated_name>
+            <filter/>
+            <name>core_company</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-19 18:03:23</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cedcac8bc398ae10d6d19883e401319d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Company - Workspace Buffalo Repairs 0</sys_name>
+            <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+            <sys_update_name>sys_ui_related_core_company_workspace-buffalo-repairs-0</sys_update_name>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-19 18:03:23</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Buffalo Repairs 0" name="workspace-buffalo-repairs-0">2d636c264a80e210b047a8a8d10817b3</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

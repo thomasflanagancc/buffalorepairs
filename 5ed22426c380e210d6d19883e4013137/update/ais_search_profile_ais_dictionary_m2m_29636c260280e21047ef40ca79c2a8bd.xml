@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="default_synonym_dictionary">b29df374c7531010d1cfd9795cc260cd</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="buffalo-repairs Search Profile">65636c26b980e2108be7f6f3bdc164bd</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 17:49:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>29636c260280e21047ef40ca79c2a8bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>default_synonym_dictionary.buffalo-repairs Search Profile</sys_name>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_29636c260280e21047ef40ca79c2a8bd</sys_update_name>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 17:49:29</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

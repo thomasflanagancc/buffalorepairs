@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Entitlements" section_id="60832466c380e210d6d19883e40131f6" sys_domain="global" table="alm_hardware" version="3" view="workspace-buffalo-repairs-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>REL.alm_hardware.REL:12bf6a8137b3100044e0bfc8bcbe5d3c</element>
+            <position>0</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>ec832466c380e210d6d19883e40131f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Entitlements" display_value="Entitlements" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">60832466c380e210d6d19883e40131f6</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Entitlements</caption>
+            <header>false</header>
+            <name>alm_hardware</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60832466c380e210d6d19883e40131f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>alm_hardware</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+            <sys_update_name>sys_ui_section_60832466c380e210d6d19883e40131f6</sys_update_name>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Buffalo Repairs 0" name="workspace-buffalo-repairs-0">2d636c264a80e210b047a8a8d10817b3</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

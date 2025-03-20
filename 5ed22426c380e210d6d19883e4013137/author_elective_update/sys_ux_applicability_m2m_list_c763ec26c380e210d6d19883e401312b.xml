@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="DELETE">
+        <active>true</active>
+        <applicability display_value="Audience for app buffalo-repairs">1663ac26c380e210d6d19883e40131a5</applicability>
+        <list/>
+        <order>100</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 17:49:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c763ec26c380e210d6d19883e401312b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_c763ec26c380e210d6d19883e401312b</sys_update_name>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 17:49:34</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</application>
+        <file_path/>
+        <instance_id>e71bdd136f64de40869e7b2f5d3ee439</instance_id>
+        <instance_name>pivottsdev</instance_name>
+        <name>sys_ux_applicability_m2m_list_c763ec26c380e210d6d19883e401312b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list"><sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE"><active>true</active><applicability display_value="Audience for app buffalo-repairs">1663ac26c380e210d6d19883e40131a5</applicability><list/><order>100</order><sys_class_name>sys_ux_applicability_m2m_list</sys_class_name><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:49:34</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>c763ec26c380e210d6d19883e401312b</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope><sys_update_name>sys_ux_applicability_m2m_list_c763ec26c380e210d6d19883e401312b</sys_update_name><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:49:34</sys_updated_on></sys_ux_applicability_m2m_list></record_update>]]></payload>
+        <payload_hash>171761687</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d6d22426c380e210d6d19883e401313c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 19:08:03</sys_created_on>
+        <sys_id>ddabf48bc3d8ae10d6d19883e401319e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195afce3ab30000001</sys_recorded_at>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 19:08:03</sys_updated_on>
+        <type>List Applicability</type>
+        <u_link>[code]&lt;a title="sys_ux_applicability_m2m_list_c763ec26c380e210d6d19883e401312b" class="linked" href="sys_ux_applicability_m2m_list.do?sys_id=c763ec26c380e210d6d19883e401312b"&gt;sys_ux_applicability_m2m_list_c763ec26c380e210d6d19883e401312b&lt;/a&gt;[/code]</u_link>
+        <update_guid>c763ec26eb80e2108b9d89deda456d2c</update_guid>
+        <update_guid_history>c763ec26eb80e2108b9d89deda456d2c:1477719168,c763ec26eb80e2108b9d89deda456d2c:1477719168</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 19:08:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ux_applicability_m2m_list">sys_ux_applicability_m2m_list</sys_db_object>
+        <sys_id>056ac8528caf49ca81362265a92b9249</sys_id>
+        <sys_metadata>c763ec26c380e210d6d19883e401312b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_scope_delete display_value="">8d27cd11fd0e41748c2fd7ef1ebdd871</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_m2m_list_c763ec26c380e210d6d19883e401312b</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_m2m_list_c763ec26c380e210d6d19883e401312b">ddabf48bc3d8ae10d6d19883e401319e</sys_update_version>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 19:08:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

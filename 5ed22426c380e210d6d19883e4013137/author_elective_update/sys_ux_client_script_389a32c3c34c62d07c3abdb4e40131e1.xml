@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Receive Device">631a9922c384e210d6d19883e4013181</macroponent>
+        <name>button_3/isHidden</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+  if(api.state.ritmId != ''){
+    return false;
+  }
+	else{
+    return true;
+  };
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-07 18:26:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>389a32c3c34c62d07c3abdb4e40131e1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>button_3/isHidden</sys_name>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name>sys_ux_client_script_389a32c3c34c62d07c3abdb4e40131e1</sys_update_name>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 15:05:59</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</application>
+        <file_path/>
+        <instance_id>e71bdd136f64de40869e7b2f5d3ee439</instance_id>
+        <instance_name>pivottsdev</instance_name>
+        <name>sys_ux_client_script_389a32c3c34c62d07c3abdb4e40131e1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Receive Device"&gt;631a9922c384e210d6d19883e4013181&lt;/macroponent&gt;&lt;name&gt;button_3/isHidden&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+  if(api.state.ritmId != ''){
+    return false;
+  }
+	else{
+    return true;
+  };
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Thomas.Flanagan@pivotts.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-07 18:26:25&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;389a32c3c34c62d07c3abdb4e40131e1&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;button_3/isHidden&lt;/sys_name&gt;&lt;sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0"&gt;5ed22426c380e210d6d19883e4013137&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Buffalo Repairs"&gt;5ed22426c380e210d6d19883e4013137&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_389a32c3c34c62d07c3abdb4e40131e1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Thomas.Flanagan@pivotts.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-13 15:05:59&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1094617235</payload_hash>
+        <record_name>button_3/isHidden</record_name>
+        <reverted_from/>
+        <source>d6d22426c380e210d6d19883e401313c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 15:05:59</sys_created_on>
+        <sys_id>70ba854dc3d42a107c3abdb4e401312c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195900a753f0000001</sys_recorded_at>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 15:05:59</sys_updated_on>
+        <type>UX Client Script</type>
+        <u_link>[code]&lt;a title="sys_ux_client_script_389a32c3c34c62d07c3abdb4e40131e1" class="linked" href="sys_ux_client_script.do?sys_id=389a32c3c34c62d07c3abdb4e40131e1"&gt;sys_ux_client_script_389a32c3c34c62d07c3abdb4e40131e1&lt;/a&gt;[/code]</u_link>
+        <update_guid>70ba854deed42a103a1353f124074a2b</update_guid>
+        <update_guid_history>70ba854deed42a103a1353f124074a2b:1094617235,d07ff64fea4c62d0a870c96b595d4703:-567961652,1e0ffa4fad4c62d0eedd0646bcfa9814:1094617235</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 15:12:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>29e5ae3081604f64825cb16f3fec7064</sys_id>
+        <sys_metadata>389a32c3c34c62d07c3abdb4e40131e1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>button_3/isHidden</sys_name>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_scope_delete display_value="">8d27cd11fd0e41748c2fd7ef1ebdd871</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_389a32c3c34c62d07c3abdb4e40131e1</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_389a32c3c34c62d07c3abdb4e40131e1">70ba854dc3d42a107c3abdb4e401312c</sys_update_version>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 15:12:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

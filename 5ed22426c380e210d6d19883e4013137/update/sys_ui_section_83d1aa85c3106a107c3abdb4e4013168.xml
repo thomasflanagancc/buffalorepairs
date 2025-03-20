@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Task Description &amp; Notes" section_id="83d1aa85c3106a107c3abdb4e4013168" sys_domain="global" table="sc_task" version="3" view="workspace-buffalo-repairs-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12M.task.sc_item_variables_task.task</element>
+            <position>0</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-19 17:39:38</sys_created_on>
+            <sys_id>ca67a0c3c398ae10d6d19883e401317a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Task Description &amp; Notes" display_value="Task Description &amp; Notes" name="sc_task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">83d1aa85c3106a107c3abdb4e4013168</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-19 17:39:38</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>1</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-19 17:39:38</sys_created_on>
+            <sys_id>c267a0c3c398ae10d6d19883e401317b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Task Description &amp; Notes" display_value="Task Description &amp; Notes" name="sc_task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">83d1aa85c3106a107c3abdb4e4013168</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-19 17:39:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>2</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-19 17:39:38</sys_created_on>
+            <sys_id>8267a0c3c398ae10d6d19883e4013188</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Task Description &amp; Notes" display_value="Task Description &amp; Notes" name="sc_task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">83d1aa85c3106a107c3abdb4e4013168</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-19 17:39:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>3</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-19 17:39:38</sys_created_on>
+            <sys_id>8a67a0c3c398ae10d6d19883e4013188</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Task Description &amp; Notes" display_value="Task Description &amp; Notes" name="sc_task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">83d1aa85c3106a107c3abdb4e4013168</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-19 17:39:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>com_glideapp_servicecatalog_veditor</element>
+            <position>4</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-19 17:39:38</sys_created_on>
+            <sys_id>8267a0c3c398ae10d6d19883e4013189</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Variable Editor">868666b5c6112291006abde051ace453</sys_ui_formatter>
+            <sys_ui_section caption="Task Description &amp; Notes" display_value="Task Description &amp; Notes" name="sc_task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">83d1aa85c3106a107c3abdb4e4013168</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-19 17:39:38</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Task Description &amp; Notes</caption>
+            <header>false</header>
+            <name>sc_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-13 21:26:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>83d1aa85c3106a107c3abdb4e4013168</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>sc_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+            <sys_update_name>sys_ui_section_83d1aa85c3106a107c3abdb4e4013168</sys_update_name>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-19 17:36:09</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Buffalo Repairs 0" name="workspace-buffalo-repairs-0">2d636c264a80e210b047a8a8d10817b3</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

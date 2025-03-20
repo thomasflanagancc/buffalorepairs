@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>REFRESH_TO_NEW_RITM</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Refresh to New RITM</label>
+        <props>[
+    {
+        "fieldType": "string",
+        "id": "cm7ythez901xo3j7ueuxzlc6w",
+        "interfaceApiName": "",
+        "label": "Route type",
+        "mandatory": false,
+        "name": "route",
+        "readOnly": false,
+        "type": "string",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "json",
+        "id": "cm7ythez901xp3j7uimzjipki",
+        "interfaceApiName": "",
+        "label": "Route fields",
+        "mandatory": false,
+        "name": "fields",
+        "readOnly": false,
+        "type": "json",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "json",
+        "id": "cm7ythez901xq3j7u2say9wdg",
+        "interfaceApiName": "",
+        "label": "Optionals parameters",
+        "mandatory": false,
+        "name": "params",
+        "readOnly": false,
+        "type": "json",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "boolean",
+        "id": "cm7ythez901xr3j7u60lfv72y",
+        "interfaceApiName": "",
+        "label": "Remove previous URL from browser history",
+        "mandatory": false,
+        "name": "redirect",
+        "readOnly": false,
+        "type": "boolean",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "boolean",
+        "id": "cm7ythez901xs3j7ufe9ym6n8",
+        "interfaceApiName": "",
+        "label": "Load in background (advanced)",
+        "mandatory": false,
+        "name": "passiveNavigation",
+        "readOnly": false,
+        "type": "boolean",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "string",
+        "id": "cm7ythez901xt3j7ul10587so",
+        "interfaceApiName": "",
+        "label": "Title (advanced)",
+        "mandatory": false,
+        "name": "title",
+        "readOnly": false,
+        "type": "string",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "string",
+        "id": "cm7ythez901xu3j7ucyliaxmp",
+        "interfaceApiName": "",
+        "label": "Multi-instance field (advanced)",
+        "mandatory": false,
+        "name": "multiInstField",
+        "readOnly": false,
+        "type": "string",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "string",
+        "id": "cm7ythez901xv3j7uz3wrpm1u",
+        "interfaceApiName": "",
+        "label": "Sub-navigation route (advanced)",
+        "mandatory": false,
+        "name": "targetRoute",
+        "readOnly": false,
+        "type": "string",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "json",
+        "id": "cm7ythez901xw3j7uf69ox4kf",
+        "interfaceApiName": "",
+        "label": "External URL object",
+        "mandatory": false,
+        "name": "external",
+        "readOnly": false,
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "target": {
+                        "description": "Target window to open. Default is _blank",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "The URL to open",
+                        "type": "string"
+                    }
+                },
+                "title": "External URL Object",
+                "type": "object"
+            }
+        }
+    },
+    {
+        "fieldType": "json",
+        "id": "cm7ythez901xx3j7ugbp8p0j6",
+        "interfaceApiName": "",
+        "label": "Navigation Options object",
+        "mandatory": false,
+        "name": "navigationOptions",
+        "readOnly": false,
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "navigateExternal": {
+                        "description": "Enable external navigation",
+                        "type": "boolean"
+                    },
+                    "targetWindowRef": {
+                        "description": "Target window opened by action dispatcher",
+                        "type": "object"
+                    },
+                    "windowOptions": {
+                        "description": "Target and windowOptions with which window.open to be called. Default values are _blank and emptyString",
+                        "type": "json"
+                    }
+                },
+                "title": "Navigation Options Object",
+                "type": "object"
+            }
+        }
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "External URL object",
+  "comment" : ""
+}, {
+  "message" : "Load in background (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Multi-instance field (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Navigation Options object",
+  "comment" : ""
+}, {
+  "message" : "Optionals parameters",
+  "comment" : ""
+}, {
+  "message" : "Remove previous URL from browser history",
+  "comment" : ""
+}, {
+  "message" : "Route fields",
+  "comment" : ""
+}, {
+  "message" : "Route type",
+  "comment" : ""
+}, {
+  "message" : "Sub-navigation route (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Title (advanced)",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-07 13:42:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d04a790bc30862d07c3abdb4e40131fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refresh to New RITM</sys_name>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name>sys_ux_event_d04a790bc30862d07c3abdb4e40131fe</sys_update_name>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-07 13:42:58</sys_updated_on>
+    </sys_ux_event>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</application>
+        <file_path/>
+        <instance_id>e71bdd136f64de40869e7b2f5d3ee439</instance_id>
+        <instance_name>pivottsdev</instance_name>
+        <name>sys_ux_event_d04a790bc30862d07c3abdb4e40131fe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>REFRESH_TO_NEW_RITM</event_name><explicit_api_name/><interfaces/><label>Refresh to New RITM</label><props>[
+    {
+        "fieldType": "string",
+        "id": "cm7ythez901xo3j7ueuxzlc6w",
+        "interfaceApiName": "",
+        "label": "Route type",
+        "mandatory": false,
+        "name": "route",
+        "readOnly": false,
+        "type": "string",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "json",
+        "id": "cm7ythez901xp3j7uimzjipki",
+        "interfaceApiName": "",
+        "label": "Route fields",
+        "mandatory": false,
+        "name": "fields",
+        "readOnly": false,
+        "type": "json",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "json",
+        "id": "cm7ythez901xq3j7u2say9wdg",
+        "interfaceApiName": "",
+        "label": "Optionals parameters",
+        "mandatory": false,
+        "name": "params",
+        "readOnly": false,
+        "type": "json",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "boolean",
+        "id": "cm7ythez901xr3j7u60lfv72y",
+        "interfaceApiName": "",
+        "label": "Remove previous URL from browser history",
+        "mandatory": false,
+        "name": "redirect",
+        "readOnly": false,
+        "type": "boolean",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "boolean",
+        "id": "cm7ythez901xs3j7ufe9ym6n8",
+        "interfaceApiName": "",
+        "label": "Load in background (advanced)",
+        "mandatory": false,
+        "name": "passiveNavigation",
+        "readOnly": false,
+        "type": "boolean",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "string",
+        "id": "cm7ythez901xt3j7ul10587so",
+        "interfaceApiName": "",
+        "label": "Title (advanced)",
+        "mandatory": false,
+        "name": "title",
+        "readOnly": false,
+        "type": "string",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "string",
+        "id": "cm7ythez901xu3j7ucyliaxmp",
+        "interfaceApiName": "",
+        "label": "Multi-instance field (advanced)",
+        "mandatory": false,
+        "name": "multiInstField",
+        "readOnly": false,
+        "type": "string",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "string",
+        "id": "cm7ythez901xv3j7uz3wrpm1u",
+        "interfaceApiName": "",
+        "label": "Sub-navigation route (advanced)",
+        "mandatory": false,
+        "name": "targetRoute",
+        "readOnly": false,
+        "type": "string",
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "json",
+        "id": "cm7ythez901xw3j7uf69ox4kf",
+        "interfaceApiName": "",
+        "label": "External URL object",
+        "mandatory": false,
+        "name": "external",
+        "readOnly": false,
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "target": {
+                        "description": "Target window to open. Default is _blank",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "The URL to open",
+                        "type": "string"
+                    }
+                },
+                "title": "External URL Object",
+                "type": "object"
+            }
+        }
+    },
+    {
+        "fieldType": "json",
+        "id": "cm7ythez901xx3j7ugbp8p0j6",
+        "interfaceApiName": "",
+        "label": "Navigation Options object",
+        "mandatory": false,
+        "name": "navigationOptions",
+        "readOnly": false,
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "navigateExternal": {
+                        "description": "Enable external navigation",
+                        "type": "boolean"
+                    },
+                    "targetWindowRef": {
+                        "description": "Target window opened by action dispatcher",
+                        "type": "object"
+                    },
+                    "windowOptions": {
+                        "description": "Target and windowOptions with which window.open to be called. Default values are _blank and emptyString",
+                        "type": "json"
+                    }
+                },
+                "title": "Navigation Options Object",
+                "type": "object"
+            }
+        }
+    }
+]</props><required_translations>[ {
+  "message" : "External URL object",
+  "comment" : ""
+}, {
+  "message" : "Load in background (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Multi-instance field (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Navigation Options object",
+  "comment" : ""
+}, {
+  "message" : "Optionals parameters",
+  "comment" : ""
+}, {
+  "message" : "Remove previous URL from browser history",
+  "comment" : ""
+}, {
+  "message" : "Route fields",
+  "comment" : ""
+}, {
+  "message" : "Route type",
+  "comment" : ""
+}, {
+  "message" : "Sub-navigation route (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Title (advanced)",
+  "comment" : ""
+} ]</required_translations><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-07 13:42:58</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>d04a790bc30862d07c3abdb4e40131fe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Refresh to New RITM</sys_name><sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope><sys_update_name>sys_ux_event_d04a790bc30862d07c3abdb4e40131fe</sys_update_name><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-07 13:42:58</sys_updated_on></sys_ux_event></record_update>]]></payload>
+        <payload_hash>-1616848901</payload_hash>
+        <record_name>Refresh to New RITM</record_name>
+        <reverted_from/>
+        <source>d6d22426c380e210d6d19883e401313c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-07 13:42:58</sys_created_on>
+        <sys_id>962ef58fc30862d07c3abdb4e40131a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19570d84b1d0000001</sys_recorded_at>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-07 13:42:58</sys_updated_on>
+        <type>UX Event</type>
+        <u_link>[code]&lt;a title="sys_ux_event_d04a790bc30862d07c3abdb4e40131fe" class="linked" href="sys_ux_event.do?sys_id=d04a790bc30862d07c3abdb4e40131fe"&gt;sys_ux_event_d04a790bc30862d07c3abdb4e40131fe&lt;/a&gt;[/code]</u_link>
+        <update_guid>d22e394f8d0862d077e765ec60ebdfba</update_guid>
+        <update_guid_history>d22e394f8d0862d077e765ec60ebdfba:-1616848901</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-07 14:05:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>1263b98bedb84942957c83c71fd78db1</sys_id>
+        <sys_metadata>d04a790bc30862d07c3abdb4e40131fe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refresh to New RITM</sys_name>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_scope_delete display_value="">8d27cd11fd0e41748c2fd7ef1ebdd871</sys_scope_delete>
+        <sys_update_name>sys_ux_event_d04a790bc30862d07c3abdb4e40131fe</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_d04a790bc30862d07c3abdb4e40131fe">962ef58fc30862d07c3abdb4e40131a5</sys_update_version>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-07 14:05:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

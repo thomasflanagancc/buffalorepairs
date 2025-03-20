@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="General" section_id="58832466c380e210d6d19883e4013188" sys_domain="global" table="alm_hardware" version="3" view="workspace-buffalo-repairs-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset_tag</element>
+            <position>0</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>dc832466c380e210d6d19883e401318f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">58832466c380e210d6d19883e4013188</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>install_status</element>
+            <position>1</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>d4832466c380e210d6d19883e401318a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">58832466c380e210d6d19883e4013188</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>14832466c380e210d6d19883e40131b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">58832466c380e210d6d19883e4013188</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>serial_number</element>
+            <position>3</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>d4832466c380e210d6d19883e401318e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">58832466c380e210d6d19883e4013188</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>substatus</element>
+            <position>4</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>d4832466c380e210d6d19883e4013190</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">58832466c380e210d6d19883e4013188</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>dc832466c380e210d6d19883e401318c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">58832466c380e210d6d19883e4013188</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>6</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>1c832466c380e210d6d19883e40131b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">58832466c380e210d6d19883e4013188</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>7</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>dc832466c380e210d6d19883e401318b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">58832466c380e210d6d19883e4013188</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stockroom</element>
+            <position>8</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>1c832466c380e210d6d19883e40131b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">58832466c380e210d6d19883e4013188</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reserved_for</element>
+            <position>9</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>dc832466c380e210d6d19883e401318a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">58832466c380e210d6d19883e4013188</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>managed_by</element>
+            <position>10</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>1c832466c380e210d6d19883e40131b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">58832466c380e210d6d19883e4013188</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>owned_by</element>
+            <position>11</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>dc832466c380e210d6d19883e401318e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">58832466c380e210d6d19883e4013188</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>12</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>dc832466c380e210d6d19883e4013190</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">58832466c380e210d6d19883e4013188</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_class_name</element>
+            <position>13</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>d4832466c380e210d6d19883e401318d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">58832466c380e210d6d19883e4013188</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>14</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>14832466c380e210d6d19883e40131ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">58832466c380e210d6d19883e4013188</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>15</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>d4832466c380e210d6d19883e401318c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">58832466c380e210d6d19883e4013188</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department</element>
+            <position>16</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>14832466c380e210d6d19883e40131b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">58832466c380e210d6d19883e4013188</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>17</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>d4832466c380e210d6d19883e401318b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">58832466c380e210d6d19883e4013188</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned</element>
+            <position>18</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>14832466c380e210d6d19883e40131b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">58832466c380e210d6d19883e4013188</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>install_date</element>
+            <position>19</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>d4832466c380e210d6d19883e401318f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">58832466c380e210d6d19883e4013188</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>20</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>d4832466c380e210d6d19883e4013191</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">58832466c380e210d6d19883e4013188</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>21</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_id>dc832466c380e210d6d19883e401318d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="alm_hardware" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">58832466c380e210d6d19883e4013188</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>General</caption>
+            <header>false</header>
+            <name>alm_hardware</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:56</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>58832466c380e210d6d19883e4013188</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>alm_hardware</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+            <sys_update_name>sys_ui_section_58832466c380e210d6d19883e4013188</sys_update_name>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:56</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Buffalo Repairs 0" name="workspace-buffalo-repairs-0">2d636c264a80e210b047a8a8d10817b3</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="General" section_id="d783e466c380e210d6d19883e401313e" sys_domain="global" table="cmdb_hardware_product_model" version="3" view="workspace-buffalo-repairs-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>0</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_id>1783e466c380e210d6d19883e4013141</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_id>1783e466c380e210d6d19883e4013146</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_model_category</element>
+            <position>2</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_id>1f83e466c380e210d6d19883e4013142</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset_tracking_strategy</element>
+            <position>3</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_id>1f83e466c380e210d6d19883e4013147</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>acquisition_method</element>
+            <position>4</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_id>1783e466c380e210d6d19883e4013144</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost</element>
+            <position>5</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_id>1f83e466c380e210d6d19883e4013148</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>depreciation</element>
+            <position>6</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_id>1783e466c380e210d6d19883e4013140</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>salvage_value</element>
+            <position>7</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_id>1783e466c380e210d6d19883e4013145</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expenditure_type</element>
+            <position>8</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_id>1f83e466c380e210d6d19883e4013141</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_id>1f83e466c380e210d6d19883e4013146</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model_number</element>
+            <position>10</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_id>1783e466c380e210d6d19883e4013143</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_part_number</element>
+            <position>11</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_id>1783e466c380e210d6d19883e4013148</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>barcode</element>
+            <position>12</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_id>1f83e466c380e210d6d19883e4013144</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>owner</element>
+            <position>13</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_id>1783e466c380e210d6d19883e4013149</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>14</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_id>1f83e466c380e210d6d19883e4013140</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>certified</element>
+            <position>15</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_id>1f83e466c380e210d6d19883e4013145</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ae_model</element>
+            <position>16</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_id>1783e466c380e210d6d19883e4013142</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>17</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_id>1783e466c380e210d6d19883e4013147</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>18</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_id>1f83e466c380e210d6d19883e4013143</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>General</caption>
+            <header>false</header>
+            <name>cmdb_hardware_product_model</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d783e466c380e210d6d19883e401313e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_hardware_product_model</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+            <sys_update_name>sys_ui_section_d783e466c380e210d6d19883e401313e</sys_update_name>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Buffalo Repairs 0" name="workspace-buffalo-repairs-0">2d636c264a80e210b047a8a8d10817b3</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</application>
+        <file_path/>
+        <instance_id>e71bdd136f64de40869e7b2f5d3ee439</instance_id>
+        <instance_name>pivottsdev</instance_name>
+        <name>sys_ui_section_d783e466c380e210d6d19883e401313e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="General" section_id="d783e466c380e210d6d19883e401313e" sys_domain="global" table="cmdb_hardware_product_model" version="3" view="workspace-buffalo-repairs-0"><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>0</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_id>1783e466c380e210d6d19883e4013141</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>1</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_id>1783e466c380e210d6d19883e4013146</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cmdb_model_category</element><position>2</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_id>1f83e466c380e210d6d19883e4013142</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>asset_tracking_strategy</element><position>3</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_id>1f83e466c380e210d6d19883e4013147</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>acquisition_method</element><position>4</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_id>1783e466c380e210d6d19883e4013144</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cost</element><position>5</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_id>1f83e466c380e210d6d19883e4013148</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>depreciation</element><position>6</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_id>1783e466c380e210d6d19883e4013140</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>salvage_value</element><position>7</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_id>1783e466c380e210d6d19883e4013145</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>expenditure_type</element><position>8</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_id>1f83e466c380e210d6d19883e4013141</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>9</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_id>1f83e466c380e210d6d19883e4013146</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>model_number</element><position>10</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_id>1783e466c380e210d6d19883e4013143</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_part_number</element><position>11</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_id>1783e466c380e210d6d19883e4013148</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>barcode</element><position>12</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_id>1f83e466c380e210d6d19883e4013144</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>owner</element><position>13</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_id>1783e466c380e210d6d19883e4013149</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>status</element><position>14</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_id>1f83e466c380e210d6d19883e4013140</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>certified</element><position>15</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_id>1f83e466c380e210d6d19883e4013145</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_ae_model</element><position>16</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_id>1783e466c380e210d6d19883e4013142</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>17</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_id>1783e466c380e210d6d19883e4013147</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>comments</element><position>18</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_id>1f83e466c380e210d6d19883e4013143</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="General" display_value="General" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">d783e466c380e210d6d19883e401313e</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>General</caption><header>false</header><name>cmdb_hardware_product_model</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d783e466c380e210d6d19883e401313e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cmdb_hardware_product_model</sys_name><sys_overrides/><sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope><sys_update_name>sys_ui_section_d783e466c380e210d6d19883e401313e</sys_update_name><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><title>false</title><view display_value="Workspace Buffalo Repairs 0" name="workspace-buffalo-repairs-0">2d636c264a80e210b047a8a8d10817b3</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1596548518</payload_hash>
+        <record_name>Hardware Model</record_name>
+        <reverted_from/>
+        <source>d6d22426c380e210d6d19883e401313c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 17:50:11</sys_created_on>
+        <sys_id>5493e466c380e210d6d19883e40131e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195676deb970000001</sys_recorded_at>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 17:50:11</sys_updated_on>
+        <type>Form Layout</type>
+        <u_link>[code]&lt;a title="sys_ui_section_d783e466c380e210d6d19883e401313e" class="linked" href="sys_ui_section.do?sys_id=d783e466c380e210d6d19883e401313e"&gt;sys_ui_section_d783e466c380e210d6d19883e401313e&lt;/a&gt;[/code]</u_link>
+        <update_guid>d893e466e280e210ae782bfcf27320e6</update_guid>
+        <update_guid_history>d893e466e280e210ae782bfcf27320e6:-1596548518</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 18:10:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>64992f9dfac04f6082c796be4f2b94a4</sys_id>
+        <sys_metadata>d783e466c380e210d6d19883e401313e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>General</sys_name>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_parent display_value="CMDB Hardware Product Model">a981ed5313201200a588babed144b0b7</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_scope_delete display_value="">8d27cd11fd0e41748c2fd7ef1ebdd871</sys_scope_delete>
+        <sys_update_name>sys_ui_section_d783e466c380e210d6d19883e401313e</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_d783e466c380e210d6d19883e401313e">5493e466c380e210d6d19883e40131e7</sys_update_version>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 18:10:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

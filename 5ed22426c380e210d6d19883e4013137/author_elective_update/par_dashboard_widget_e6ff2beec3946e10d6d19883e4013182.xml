@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">69636c26a780e21026794c057a3e4ab6</canvas>
+        <component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component>
+        <component_props>{"table":"sc_task","columnPreferenceKey":"","fixedQuery":"request_item.cat_item=77a7642ec380e210d6d19883e401313a","listTitle":"All Closed","columns":"number,request_item,sys_created_on,closed_at,short_description,variables.a13ba022c3c0e210d6d19883e4013194,variables.7949646ec380e210d6d19883e4013105,description,comments_and_work_notes,variables.6a8d94cbc318ae10d6d19883e4013164,variables.aead10cbc318ae10d6d19883e4013121","query":"","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"nrlLandmark":true,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":false,"hideDotwalk":false,"hideColumnReorder":false,"hideRowSelector":false,"hideColumnGrouping":false,"hideColumnResizing":false,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":false,"id":"columns","value":"number,request_item,sys_created_on,closed_at,short_description,variables.a13ba022c3c0e210d6d19883e4013194,variables.7949646ec380e210d6d19883e4013105,description,comments_and_work_notes,variables.6a8d94cbc318ae10d6d19883e4013164,variables.aead10cbc318ae10d6d19883e4013121","propLabel":"Columns","maxColumns":20,"noDebounce":true}</component_props>
+        <h>25</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-18 18:58:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e6ff2beec3946e10d6d19883e4013182</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name>par_dashboard_widget_e6ff2beec3946e10d6d19883e4013182</sys_update_name>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:51:07</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>62</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</application>
+        <file_path/>
+        <instance_id>e71bdd136f64de40869e7b2f5d3ee439</instance_id>
+        <instance_name>pivottsdev</instance_name>
+        <name>par_dashboard_widget_e6ff2beec3946e10d6d19883e4013182</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">69636c26a780e21026794c057a3e4ab6</canvas><component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component><component_props>{"table":"sc_task","columnPreferenceKey":"","fixedQuery":"request_item.cat_item=77a7642ec380e210d6d19883e401313a","listTitle":"All Closed","columns":"number,request_item,sys_created_on,closed_at,short_description,variables.a13ba022c3c0e210d6d19883e4013194,variables.7949646ec380e210d6d19883e4013105,description,comments_and_work_notes,variables.6a8d94cbc318ae10d6d19883e4013164,variables.aead10cbc318ae10d6d19883e4013121","query":"","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"nrlLandmark":true,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":false,"hideDotwalk":false,"hideColumnReorder":false,"hideRowSelector":false,"hideColumnGrouping":false,"hideColumnResizing":false,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":false,"id":"columns","value":"number,request_item,sys_created_on,closed_at,short_description,variables.a13ba022c3c0e210d6d19883e4013194,variables.7949646ec380e210d6d19883e4013105,description,comments_and_work_notes,variables.6a8d94cbc318ae10d6d19883e4013164,variables.aead10cbc318ae10d6d19883e4013121","propLabel":"Columns","maxColumns":20,"noDebounce":true}</component_props><h>25</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-18 18:58:58</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e6ff2beec3946e10d6d19883e4013182</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope><sys_update_name>par_dashboard_widget_e6ff2beec3946e10d6d19883e4013182</sys_update_name><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-19 17:51:07</sys_updated_on><visualization/><w>48</w><widget_props/><x>0</x><y>62</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1493734168</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d6d22426c380e210d6d19883e401313c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:51:07</sys_created_on>
+        <sys_id>ea0aecc7c398ae10d6d19883e4013113</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195af87ce080000001</sys_recorded_at>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:51:07</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <u_link>[code]&lt;a title="par_dashboard_widget_e6ff2beec3946e10d6d19883e4013182" class="linked" href="par_dashboard_widget.do?sys_id=e6ff2beec3946e10d6d19883e4013182"&gt;par_dashboard_widget_e6ff2beec3946e10d6d19883e4013182&lt;/a&gt;[/code]</u_link>
+        <update_guid>aa0aecc7b298ae109be152571af41712</update_guid>
+        <update_guid_history>aa0aecc7b298ae109be152571af41712:-1493734168,66ff2bee79946e105025ad4d98f1a583:402813400</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 03-19-2025 01:54:07 PM">9aba680bc398ae10d6d19883e40131d8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:54:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>1f3ea51d017b4698b4a8c78b1b004e90</sys_id>
+        <sys_metadata>e6ff2beec3946e10d6d19883e4013182</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_scope_delete display_value="">8d27cd11fd0e41748c2fd7ef1ebdd871</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_e6ff2beec3946e10d6d19883e4013182</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_e6ff2beec3946e10d6d19883e4013182">ea0aecc7c398ae10d6d19883e4013113</sys_update_version>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:54:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

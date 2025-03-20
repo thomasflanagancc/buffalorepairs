@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Logistics" section_id="9e83a466c380e210d6d19883e401319b" sys_domain="global" table="task" version="3" view="workspace-buffalo-repairs-0">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>true</is_plain_text>
+            <sys_created_by>joseph.hicks@pivotts.com</sys_created_by>
+            <sys_created_on>2019-05-03 16:54:08</sys_created_on>
+            <sys_id>169f6bb31381730044cb30ded144b060</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.hicks@pivotts.com</sys_updated_by>
+            <sys_updated_on>2019-05-03 16:54:08</sys_updated_on>
+            <text>Outbound Shipping Information</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>true</is_plain_text>
+            <sys_created_by>joseph.hicks@pivotts.com</sys_created_by>
+            <sys_created_on>2019-05-03 16:54:08</sys_created_on>
+            <sys_id>529f6bb31381730044cb30ded144b061</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.hicks@pivotts.com</sys_updated_by>
+            <sys_updated_on>2019-05-03 16:54:08</sys_updated_on>
+            <text>Inbound Shipping Information</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9a83a466c380e210d6d19883e40131b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>169f6bb31381730044cb30ded144b060</element>
+            <position>1</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9283a466c380e210d6d19883e40131b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_outbound_attention</element>
+            <position>2</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9283a466c380e210d6d19883e40131b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_outbound_email</element>
+            <position>3</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9283a466c380e210d6d19883e40131b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_outbound_phone_number</element>
+            <position>4</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9283a466c380e210d6d19883e40131b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_outbound_street</element>
+            <position>5</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9283a466c380e210d6d19883e40131af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_outbound_city</element>
+            <position>6</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9283a466c380e210d6d19883e40131b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_outbound_state</element>
+            <position>7</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9a83a466c380e210d6d19883e40131af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_outbound_zip</element>
+            <position>8</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9a83a466c380e210d6d19883e40131b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_outbound_country</element>
+            <position>9</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9a83a466c380e210d6d19883e40131b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_outbound_status</element>
+            <position>10</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9a83a466c380e210d6d19883e40131b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_outbound_tracking</element>
+            <position>11</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9a83a466c380e210d6d19883e40131b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_outbound_ship_date</element>
+            <position>12</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9283a466c380e210d6d19883e40131ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_outbound_received_on</element>
+            <position>13</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9283a466c380e210d6d19883e40131b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_outbound_received_by</element>
+            <position>14</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9a83a466c380e210d6d19883e40131ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>15</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9a83a466c380e210d6d19883e40131b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>529f6bb31381730044cb30ded144b061</element>
+            <position>16</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9283a466c380e210d6d19883e40131ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_inbound_attention</element>
+            <position>17</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9a83a466c380e210d6d19883e40131b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_inbound_email</element>
+            <position>18</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9283a466c380e210d6d19883e40131aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_inbound_phone_number</element>
+            <position>19</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9283a466c380e210d6d19883e40131b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_inbound_street</element>
+            <position>20</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9a83a466c380e210d6d19883e40131ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_inbound_city</element>
+            <position>21</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9a83a466c380e210d6d19883e40131b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_inbound_state</element>
+            <position>22</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9283a466c380e210d6d19883e40131ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_inbound_zip</element>
+            <position>23</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9283a466c380e210d6d19883e40131b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_inbound_country</element>
+            <position>24</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9a83a466c380e210d6d19883e40131ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_inbound_status</element>
+            <position>25</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9283a466c380e210d6d19883e40131b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_inbound_tracking</element>
+            <position>26</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9a83a466c380e210d6d19883e40131aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_inbound_ship_date</element>
+            <position>27</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9a83a466c380e210d6d19883e40131b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_inbound_received_on</element>
+            <position>28</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9283a466c380e210d6d19883e40131ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_inbound_received_by</element>
+            <position>29</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9283a466c380e210d6d19883e40131b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>30</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_id>9a83a466c380e210d6d19883e40131ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Logistics</caption>
+            <header>false</header>
+            <name>task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:04</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e83a466c380e210d6d19883e401319b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+            <sys_update_name>sys_ui_section_9e83a466c380e210d6d19883e401319b</sys_update_name>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:04</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Buffalo Repairs 0" name="workspace-buffalo-repairs-0">2d636c264a80e210b047a8a8d10817b3</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</application>
+        <file_path/>
+        <instance_id>e71bdd136f64de40869e7b2f5d3ee439</instance_id>
+        <instance_name>pivottsdev</instance_name>
+        <name>sys_ui_section_9e83a466c380e210d6d19883e401319b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Logistics" section_id="9e83a466c380e210d6d19883e401319b" sys_domain="global" table="task" version="3" view="workspace-buffalo-repairs-0"><sys_ui_annotation action="INSERT_OR_UPDATE"><is_plain_text>true</is_plain_text><sys_created_by>joseph.hicks@pivotts.com</sys_created_by><sys_created_on>2019-05-03 16:54:08</sys_created_on><sys_id>169f6bb31381730044cb30ded144b060</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>joseph.hicks@pivotts.com</sys_updated_by><sys_updated_on>2019-05-03 16:54:08</sys_updated_on><text>Outbound Shipping Information</text><type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type></sys_ui_annotation><sys_ui_annotation action="INSERT_OR_UPDATE"><is_plain_text>true</is_plain_text><sys_created_by>joseph.hicks@pivotts.com</sys_created_by><sys_created_on>2019-05-03 16:54:08</sys_created_on><sys_id>529f6bb31381730044cb30ded144b061</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>joseph.hicks@pivotts.com</sys_updated_by><sys_updated_on>2019-05-03 16:54:08</sys_updated_on><text>Inbound Shipping Information</text><type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type></sys_ui_annotation><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9a83a466c380e210d6d19883e40131b6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>169f6bb31381730044cb30ded144b060</element><position>1</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9283a466c380e210d6d19883e40131b0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type>annotation</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_outbound_attention</element><position>2</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9283a466c380e210d6d19883e40131b8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_outbound_email</element><position>3</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9283a466c380e210d6d19883e40131b1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_outbound_phone_number</element><position>4</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9283a466c380e210d6d19883e40131b9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_outbound_street</element><position>5</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9283a466c380e210d6d19883e40131af</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_outbound_city</element><position>6</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9283a466c380e210d6d19883e40131b7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_outbound_state</element><position>7</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9a83a466c380e210d6d19883e40131af</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_outbound_zip</element><position>8</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9a83a466c380e210d6d19883e40131b7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_outbound_country</element><position>9</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9a83a466c380e210d6d19883e40131b0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_outbound_status</element><position>10</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9a83a466c380e210d6d19883e40131b8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_outbound_tracking</element><position>11</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9a83a466c380e210d6d19883e40131b1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_outbound_ship_date</element><position>12</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9283a466c380e210d6d19883e40131ab</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_outbound_received_on</element><position>13</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9283a466c380e210d6d19883e40131b3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_outbound_received_by</element><position>14</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9a83a466c380e210d6d19883e40131ac</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>15</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9a83a466c380e210d6d19883e40131b4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>529f6bb31381730044cb30ded144b061</element><position>16</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9283a466c380e210d6d19883e40131ae</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type>annotation</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_inbound_attention</element><position>17</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9a83a466c380e210d6d19883e40131b5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_inbound_email</element><position>18</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9283a466c380e210d6d19883e40131aa</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_inbound_phone_number</element><position>19</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9283a466c380e210d6d19883e40131b2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_inbound_street</element><position>20</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9a83a466c380e210d6d19883e40131ab</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_inbound_city</element><position>21</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9a83a466c380e210d6d19883e40131b3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_inbound_state</element><position>22</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9283a466c380e210d6d19883e40131ad</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_inbound_zip</element><position>23</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9283a466c380e210d6d19883e40131b5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_inbound_country</element><position>24</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9a83a466c380e210d6d19883e40131ae</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_inbound_status</element><position>25</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9283a466c380e210d6d19883e40131b6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_inbound_tracking</element><position>26</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9a83a466c380e210d6d19883e40131aa</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_inbound_ship_date</element><position>27</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9a83a466c380e210d6d19883e40131b2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_inbound_received_on</element><position>28</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9283a466c380e210d6d19883e40131ac</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_inbound_received_by</element><position>29</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9283a466c380e210d6d19883e40131b4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>30</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_id>9a83a466c380e210d6d19883e40131ad</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Logistics" display_value="Logistics" name="task" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9e83a466c380e210d6d19883e401319b</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Logistics</caption><header>false</header><name>task</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:04</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9e83a466c380e210d6d19883e401319b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>task</sys_name><sys_overrides/><sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope><sys_update_name>sys_ui_section_9e83a466c380e210d6d19883e401319b</sys_update_name><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:04</sys_updated_on><sys_user/><title>false</title><view display_value="Workspace Buffalo Repairs 0" name="workspace-buffalo-repairs-0">2d636c264a80e210b047a8a8d10817b3</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-410346743</payload_hash>
+        <record_name>Task</record_name>
+        <reverted_from/>
+        <source>d6d22426c380e210d6d19883e401313c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 17:50:05</sys_created_on>
+        <sys_id>2a83a466c380e210d6d19883e40131a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195676dd17a0000001</sys_recorded_at>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 17:50:05</sys_updated_on>
+        <type>Form Layout</type>
+        <u_link>[code]&lt;a title="sys_ui_section_9e83a466c380e210d6d19883e401319b" class="linked" href="sys_ui_section.do?sys_id=9e83a466c380e210d6d19883e401319b"&gt;sys_ui_section_9e83a466c380e210d6d19883e401319b&lt;/a&gt;[/code]</u_link>
+        <update_guid>ae83a4662b80e21073e649b1c6f21ba3</update_guid>
+        <update_guid_history>ae83a4662b80e21073e649b1c6f21ba3:-410346743</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 21:18:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1c4c5ae1d91c45d49ee1857409225699</sys_id>
+        <sys_metadata>9e83a466c380e210d6d19883e401319b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Logistics</sys_name>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_parent display_value="Task">cb21e55313201200a588babed144b0c0</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_scope_delete display_value="">8d27cd11fd0e41748c2fd7ef1ebdd871</sys_scope_delete>
+        <sys_update_name>sys_ui_section_9e83a466c380e210d6d19883e401319b</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_9e83a466c380e210d6d19883e401319b">2a83a466c380e210d6d19883e40131a4</sys_update_version>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 21:18:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

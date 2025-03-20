@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Product Catalog" section_id="9f83e466c380e210d6d19883e4013165" sys_domain="global" table="cmdb_hardware_product_model" version="3" view="workspace-buffalo-repairs-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>product_catalog_item</element>
+            <position>0</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_id>1f83e466c380e210d6d19883e4013167</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Product Catalog" display_value="Product Catalog" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9f83e466c380e210d6d19883e4013165</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>1</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_id>1783e466c380e210d6d19883e4013168</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Product Catalog" display_value="Product Catalog" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9f83e466c380e210d6d19883e4013165</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Product Catalog</caption>
+            <header>false</header>
+            <name>cmdb_hardware_product_model</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f83e466c380e210d6d19883e4013165</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_hardware_product_model</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+            <sys_update_name>sys_ui_section_9f83e466c380e210d6d19883e4013165</sys_update_name>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Buffalo Repairs 0" name="workspace-buffalo-repairs-0">2d636c264a80e210b047a8a8d10817b3</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</application>
+        <file_path/>
+        <instance_id>e71bdd136f64de40869e7b2f5d3ee439</instance_id>
+        <instance_name>pivottsdev</instance_name>
+        <name>sys_ui_section_9f83e466c380e210d6d19883e4013165</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Product Catalog" section_id="9f83e466c380e210d6d19883e4013165" sys_domain="global" table="cmdb_hardware_product_model" version="3" view="workspace-buffalo-repairs-0"><sys_ui_element action="INSERT_OR_UPDATE"><element>product_catalog_item</element><position>0</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_id>1f83e466c380e210d6d19883e4013167</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Product Catalog" display_value="Product Catalog" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9f83e466c380e210d6d19883e4013165</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>1</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_id>1783e466c380e210d6d19883e4013168</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Product Catalog" display_value="Product Catalog" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">9f83e466c380e210d6d19883e4013165</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Product Catalog</caption><header>false</header><name>cmdb_hardware_product_model</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9f83e466c380e210d6d19883e4013165</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cmdb_hardware_product_model</sys_name><sys_overrides/><sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope><sys_update_name>sys_ui_section_9f83e466c380e210d6d19883e4013165</sys_update_name><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><title>false</title><view display_value="Workspace Buffalo Repairs 0" name="workspace-buffalo-repairs-0">2d636c264a80e210b047a8a8d10817b3</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-876621459</payload_hash>
+        <record_name>Hardware Model</record_name>
+        <reverted_from/>
+        <source>d6d22426c380e210d6d19883e401313c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 17:50:10</sys_created_on>
+        <sys_id>8893e466c380e210d6d19883e40131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195676de6eb0000001</sys_recorded_at>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 17:50:10</sys_updated_on>
+        <type>Form Layout</type>
+        <u_link>[code]&lt;a title="sys_ui_section_9f83e466c380e210d6d19883e4013165" class="linked" href="sys_ui_section.do?sys_id=9f83e466c380e210d6d19883e4013165"&gt;sys_ui_section_9f83e466c380e210d6d19883e4013165&lt;/a&gt;[/code]</u_link>
+        <update_guid>cc93e466dd80e2106be4217ee7d3da87</update_guid>
+        <update_guid_history>cc93e466dd80e2106be4217ee7d3da87:-876621459</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 18:10:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>27d81057cb0e40df8b02b7bcd075d429</sys_id>
+        <sys_metadata>9f83e466c380e210d6d19883e4013165</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Product Catalog</sys_name>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_parent display_value="CMDB Hardware Product Model">a981ed5313201200a588babed144b0b7</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_scope_delete display_value="">8d27cd11fd0e41748c2fd7ef1ebdd871</sys_scope_delete>
+        <sys_update_name>sys_ui_section_9f83e466c380e210d6d19883e4013165</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_9f83e466c380e210d6d19883e4013165">8893e466c380e210d6d19883e40131df</sys_update_version>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 18:10:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

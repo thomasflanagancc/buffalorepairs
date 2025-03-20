@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Buffalo Repairs">e9636c261880e2102f16980f95279bbd</page>
+        <required_translations>[ {
+  "message" : "New Hardware Model",
+  "comment" : ""
+}, {
+  "message" : "New Manufacturer",
+  "comment" : ""
+}, {
+  "message" : "Receive Device",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix>chrome_tab</suffix>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 17:49:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ad636c26ac80e2103d4bba7c27d3ceae</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name>sys_ux_page_property_ad636c26ac80e2103d4bba7c27d3ceae</sys_update_name>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 18:07:35</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_pits_buffalo_r_0.e9636c261880e2102f16980f95279bbd.root.chrome_tab</unique_name>
+        <value>{&#13;
+	"contextual": ["record"],&#13;
+	"newTabMenu": [&#13;
+	  {&#13;
+		"label": { "translatable": true, "message": "Receive Device" },&#13;
+		"routeInfo": {&#13;
+		  "route": "record",&#13;
+		  "fields": { "table": "sc_req_item", "sysId": "-1" },&#13;
+		  "multiInstField": "sysId"&#13;
+		},&#13;
+		"condition": {&#13;
+		  "tableDescription": { "table": "alm_hardware", "canCreate": true }&#13;
+		}&#13;
+	  },&#13;
+	  {&#13;
+		  "label": { "translatable": true, "message": "New Manufacturer" },&#13;
+		  "routeInfo": {&#13;
+			"route": "record",&#13;
+			"fields": { "table": "core_company", "sysId": "-1" },&#13;
+			"multiInstField": "sysId"&#13;
+		  }&#13;
+		}, &#13;
+	  {&#13;
+		"label": { "translatable": true, "message": "New Hardware Model" },&#13;
+		"routeInfo": {&#13;
+		  "route": "record",&#13;
+		  "fields": { "table": "cmdb_hardware_product_model", "sysId": "-1" },&#13;
+		  "multiInstField": "sysId"&#13;
+		},&#13;
+		"condition": {&#13;
+		  "tableDescription": {&#13;
+			"table": "cmdb_hardware_product_model",&#13;
+			"canCreate": true&#13;
+		  }&#13;
+		}&#13;
+	  }&#13;
+	],&#13;
+	"maxMainTabLimit": 10,&#13;
+	"maxTotalSubTabLimit": 30&#13;
+  }&#13;
+  </value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=ad636c26ac80e2103d4bba7c27d3ceae"/>
+</record_update>

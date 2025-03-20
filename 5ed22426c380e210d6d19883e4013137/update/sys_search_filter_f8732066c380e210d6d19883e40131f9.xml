@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Hardware">64732066c380e210d6d19883e40131ef</ais_search_source>
+        <label>Hardware</label>
+        <name>Hardware</name>
+        <order>200</order>
+        <search_context_config display_value="Buffalo Repairs AI Search Configuration">ad636c267680e2104d39c3b2f4e1b5b4</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 17:49:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f8732066c380e210d6d19883e40131f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware</sys_name>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name>sys_search_filter_f8732066c380e210d6d19883e40131f9</sys_update_name>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 17:49:41</sys_updated_on>
+    </sys_search_filter>
+</record_update>

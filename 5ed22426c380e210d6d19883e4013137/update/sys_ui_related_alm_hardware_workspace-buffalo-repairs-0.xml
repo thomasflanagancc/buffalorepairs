@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="alm_hardware" version="2" view="workspace-buffalo-repairs-0">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Hardware - Workspace Buffalo Repairs 0" name="alm_hardware" related_list="NULL" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">08832466c380e210d6d19883e401312c</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>alm_asset.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:55</sys_created_on>
+            <sys_id>c0832466c380e210d6d19883e401312d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:55</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Hardware - Workspace Buffalo Repairs 0" name="alm_hardware" related_list="NULL" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">08832466c380e210d6d19883e401312c</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>fm_expense_line.asset</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:55</sys_created_on>
+            <sys_id>c4832466c380e210d6d19883e401312d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:55</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Hardware - Workspace Buffalo Repairs 0" name="alm_hardware" related_list="NULL" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">08832466c380e210d6d19883e401312c</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>asset_task.asset</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:55</sys_created_on>
+            <sys_id>c8832466c380e210d6d19883e401312d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:55</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Hardware - Workspace Buffalo Repairs 0" name="alm_hardware" related_list="NULL" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">08832466c380e210d6d19883e401312c</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>alm_transfer_order_line.asset</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:55</sys_created_on>
+            <sys_id>cc832466c380e210d6d19883e401312d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:55</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Hardware - Workspace Buffalo Repairs 0</calculated_name>
+            <filter/>
+            <name>alm_hardware</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:55</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08832466c380e210d6d19883e401312c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Hardware - Workspace Buffalo Repairs 0</sys_name>
+            <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+            <sys_update_name>sys_ui_related_alm_hardware_workspace-buffalo-repairs-0</sys_update_name>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:55</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Buffalo Repairs 0" name="workspace-buffalo-repairs-0">2d636c264a80e210b047a8a8d10817b3</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

@@ -1,0 +1,3278 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1202677000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>buffalo_repairs</internal_name>
+        <label_cache>[{"name":"3bc7eb8b-c3c4-4a0e-b8e5-09954f0a3b8d.Catalog Task.assigned_to","label":"6 - Create Catalog Task➛Catalog Task➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_task","column_name":"assigned_to","usedInstances":{"94074414-a277-45e6-ac9f-8d5de2ebdaf3":["assigned_to"]}},{"name":"79bde4ba-d0e1-4c7a-a9c4-287f05e7d8a2.record.assigned_to","label":"5 - Update Record➛Catalog Task Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_task","column_name":"assigned_to","usedInstances":{"3bc7eb8b-c3c4-4a0e-b8e5-09954f0a3b8d":["assigned_to"]}},{"name":"963a8413-3d0e-4eb9-8234-5a49cfde62eb.device_reference.ci","label":"2 - Get Catalog Variables➛device_reference➛Configuration Item","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","parent_table_name":"alm_hardware","column_name":"ci","usedInstances":{"3bc7eb8b-c3c4-4a0e-b8e5-09954f0a3b8d":["cmdb_ci"],"94074414-a277-45e6-ac9f-8d5de2ebdaf3":["cmdb_ci"]}},{"name":"Service Catalog_1.request_item.sys_domain","label":"Trigger - Service Catalog➛Requested Item Record➛Domain","reference":"domain","reference_display":"Domain","type":"domain_id","base_type":"domain_id","parent_table_name":"sc_req_item","column_name":"sys_domain","usedInstances":{"c37744fe-a270-4ff3-bbb3-93f3eb6cf103":["sys_domain"],"492cea9f-da33-4c7f-a0fc-316655a95750":["sys_domain"],"3bc7eb8b-c3c4-4a0e-b8e5-09954f0a3b8d":["sys_domain"],"94074414-a277-45e6-ac9f-8d5de2ebdaf3":["ah_fields"]}},{"name":"Service Catalog_1.request_item.u_requester.sys_domain","label":"Trigger - Service Catalog➛Requested Item Record➛Requester➛Domain","reference":"domain","reference_display":"Domain","type":"domain_id","base_type":"domain_id","parent_table_name":"sys_user","column_name":"sys_domain","usedInstances":{"60665fcd-9794-43db-bbe4-c96595395c66":["sys_domain"]}},{"name":"flow_variable.device","label":"Flow Variables➛device","reference":"alm_hardware","reference_display":"Hardware","type":"reference","base_type":"reference","column_name":"","usedInstances":{"492cea9f-da33-4c7f-a0fc-316655a95750":["asset"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"c4d59c28-b974-4b99-989b-a83f56b71118"}},{"name":"Service Catalog_1.request_item.assignment_group","label":"Trigger - Service Catalog➛Requested Item Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"assignment_group","usedInstances":{"6e4e228b-09cd-48a3-8699-f21316817cb0":["assignment_group"]}},{"name":"Service Catalog_1.request_item.u_requester","label":"Trigger - Service Catalog➛Requested Item Record➛Requester","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"u_requester","usedInstances":{"79bde4ba-d0e1-4c7a-a9c4-287f05e7d8a2":["assigned_to"]}},{"name":"Service Catalog_1.request_item.u_requester.name","label":"Trigger - Service Catalog➛Requested Item Record➛Requester➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"79bde4ba-d0e1-4c7a-a9c4-287f05e7d8a2":["closed_by"]}},{"name":"c37744fe-a270-4ff3-bbb3-93f3eb6cf103.Catalog Task","label":"4 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","usedInstances":{"79bde4ba-d0e1-4c7a-a9c4-287f05e7d8a2":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.device.serial_number","label":"Flow Variables➛device➛Serial number","reference":"","reference_display":"Serial number","type":"string","base_type":"string","parent_table_name":"alm_hardware","column_name":"serial_number","usedInstances":{"60665fcd-9794-43db-bbe4-c96595395c66":["short_description"],"c37744fe-a270-4ff3-bbb3-93f3eb6cf103":["short_description"],"6e4e228b-09cd-48a3-8699-f21316817cb0":["ah_short_description"]}},{"name":"963a8413-3d0e-4eb9-8234-5a49cfde62eb.device_reference","label":"2 - Get Catalog Variables➛device_reference","reference":"alm_hardware","reference_display":"Hardware","type":"reference","base_type":"reference","usedInstances":{"3a0d526f-a67e-4f91-9dda-1eaac4d1733b":["device-0"],"c37744fe-a270-4ff3-bbb3-93f3eb6cf103":["short_description"],"492cea9f-da33-4c7f-a0fc-316655a95750":["asset"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"963a8413-3d0e-4eb9-8234-5a49cfde62eb":["requested_item"],"60665fcd-9794-43db-bbe4-c96595395c66":["record"],"c37744fe-a270-4ff3-bbb3-93f3eb6cf103":["ah_requested_item"],"6e4e228b-09cd-48a3-8699-f21316817cb0":["ah_requested_item"],"492cea9f-da33-4c7f-a0fc-316655a95750":["parent"],"3bc7eb8b-c3c4-4a0e-b8e5-09954f0a3b8d":["ah_requested_item","parent"],"c3f27772-b606-4f97-bc7b-dc9259546f2b":["record"],"94074414-a277-45e6-ac9f-8d5de2ebdaf3":["ah_requested_item"]},"attributes":{"default_search_field":"number"}},{"name":"963a8413-3d0e-4eb9-8234-5a49cfde62eb.add_new_device","label":"2 - Get Catalog Variables➛add_new_device","reference":"","reference_display":"add_new_device","type":"boolean","base_type":"boolean","usedInstances":{"c5323d6c-a64b-40be-b688-6ef354f1b9d8":["condition"]},"attributes":{"catalogType":"7","catalogTypeLabel":"CheckBox"}},{"name":"963a8413-3d0e-4eb9-8234-5a49cfde62eb.serial_number","label":"2 - Get Catalog Variables➛serial_number","reference":"","reference_display":"serial_number","type":"string","base_type":"string","usedInstances":{"a53c66bd-3274-4487-92a5-75c479ecb98b":["serial_number"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"963a8413-3d0e-4eb9-8234-5a49cfde62eb.model","label":"2 - Get Catalog Variables➛model","reference":"cmdb_hardware_product_model","reference_display":"Hardware Model","type":"reference","base_type":"reference","usedInstances":{"a53c66bd-3274-4487-92a5-75c479ecb98b":["model"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"963a8413-3d0e-4eb9-8234-5a49cfde62eb.customer","label":"2 - Get Catalog Variables➛customer","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","usedInstances":{"a53c66bd-3274-4487-92a5-75c479ecb98b":["company"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"a53c66bd-3274-4487-92a5-75c479ecb98b.record","label":"4 - Create Record➛Hardware Record","reference":"alm_hardware","reference_display":"Hardware","type":"reference","base_type":"reference","usedInstances":{"03406912-725c-4d9c-99db-8d0c003d95da":["device-0"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"963a8413-3d0e-4eb9-8234-5a49cfde62eb.customer.sys_domain","label":"2 - Get Catalog Variables➛customer➛Domain","reference":"domain","reference_display":"Domain","type":"domain_id","base_type":"domain_id","parent_table_name":"core_company","column_name":"sys_domain","usedInstances":{"60665fcd-9794-43db-bbe4-c96595395c66":["sys_domain"]}},{"name":"3bc7eb8b-c3c4-4a0e-b8e5-09954f0a3b8d.Catalog Task","label":"6 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","usedInstances":{"06857101-306d-4802-9a0e-4061e166ccbd":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"94074414-a277-45e6-ac9f-8d5de2ebdaf3.Catalog Task","label":"8 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","usedInstances":{"05de7a32-1432-4b59-b7da-096c48b9b3cd":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>d844b0c9c3542a107c3abdb4e40131a1</master_snapshot>
+        <name>Buffalo Repairs</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>3c44f0c9c3542a107c3abdb4e40131b3</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:28:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a47cec62c3c0e210d6d19883e4013134</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name>Buffalo Repairs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name>sys_hub_flow_a47cec62c3c0e210d6d19883e4013134</sys_update_name>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:41</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=a47cec62c3c0e210d6d19883e4013134"/>
+    <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <run_flow_in/>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3c44f0c9c3542a107c3abdb4e40131b3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:28:16</sys_updated_on>
+    </sys_flow_catalog_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=a47cec62c3c0e210d6d19883e4013134"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=a47cec62c3c0e210d6d19883e4013134^sys_idNOT IN4b9da0e2c3c0e210d6d19883e40131c4"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Buffalo Repairs">a47cec62c3c0e210d6d19883e4013134</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:34:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4b9da0e2c3c0e210d6d19883e40131c4</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:40</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4b9da0e2c3c0e210d6d19883e40131c4"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a47cec62c3c0e210d6d19883e4013134^sys_idNOT IN45ff6826c3c0e210d6d19883e40131b4,8dff6826c3c0e210d6d19883e40131b3,c5ff6826c3c0e210d6d19883e40131b4"/>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Buffalo Repairs">a47cec62c3c0e210d6d19883e4013134</flow>
+        <label>Closed Complete</label>
+        <order>2</order>
+        <stage_id>effd8202-9b08-440f-95dd-11eb5159c15b</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_class_name>sys_hub_flow_stage</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:44:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>45ff6826c3c0e210d6d19883e40131b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:44:18</sys_updated_on>
+        <type>standard</type>
+        <value>buff_closed_complete</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>5</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Buffalo Repairs">a47cec62c3c0e210d6d19883e4013134</flow>
+        <label>In Maintenance</label>
+        <order>1</order>
+        <stage_id>4ac5d965-2b33-418f-b1c7-000925286584</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_class_name>sys_hub_flow_stage</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:44:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8dff6826c3c0e210d6d19883e40131b3</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:49</sys_updated_on>
+        <type>standard</type>
+        <value>buff_in_maintenance</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>3</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Buffalo Repairs">a47cec62c3c0e210d6d19883e4013134</flow>
+        <label>Received</label>
+        <order>0</order>
+        <stage_id>4fa8f285-2967-44a3-9e34-5a8637c002e0</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_class_name>sys_hub_flow_stage</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:44:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c5ff6826c3c0e210d6d19883e40131b4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:54</sys_updated_on>
+        <type>standard</type>
+        <value>buff_received</value>
+    </sys_hub_flow_stage>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a47cec62c3c0e210d6d19883e4013134^sys_idNOT INac7cec62c3c0e210d6d19883e4013136"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a47cec62c3c0e210d6d19883e4013134</id>
+        <name>Buffalo Repairs</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:28:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ac7cec62c3c0e210d6d19883e4013136</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:28:59</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ac7cec62c3c0e210d6d19883e4013136"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=a47cec62c3c0e210d6d19883e4013134^sys_idNOT IN3a9da0e2c3c0e210d6d19883e40131aa,b29da0e2c3c0e210d6d19883e40131b0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Buffalo Repairs">a47cec62c3c0e210d6d19883e4013134</model>
+        <model_id>a47cec62c3c0e210d6d19883e4013134</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a47cec62c3c0e210d6d19883e4013134</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:34:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3a9da0e2c3c0e210d6d19883e40131aa</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3a9da0e2c3c0e210d6d19883e40131aa"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Buffalo Repairs">a47cec62c3c0e210d6d19883e4013134</model>
+        <model_id>a47cec62c3c0e210d6d19883e4013134</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a47cec62c3c0e210d6d19883e4013134</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:34:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b29da0e2c3c0e210d6d19883e40131b0</sys_id>
+        <sys_mod_count>61</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b29da0e2c3c0e210d6d19883e40131b0"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=a47cec62c3c0e210d6d19883e4013134"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a47cec62c3c0e210d6d19883e4013134"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a47cec62c3c0e210d6d19883e4013134^sys_idNOT IN067fe066c3c0e210d6d19883e401313d,2069f881c3942a107c3abdb4e4013188,4f9de0e2c3c0e210d6d19883e401310d,6469f881c3942a107c3abdb4e401317f,75bdfd45c35c2a107c3abdb4e401317c,a58e944fc318ae10d6d19883e40131eb,c79da0e2c3c0e210d6d19883e40131e5,ce7fe066c3c0e210d6d19883e4013145,f18ed44fc318ae10d6d19883e4013103"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Buffalo Repairs">a47cec62c3c0e210d6d19883e4013134</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:42:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>067fe066c3c0e210d6d19883e401313d</sys_id>
+        <sys_mod_count>70</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:57</sys_updated_on>
+        <ui_id>c37744fe-a270-4ff3-bbb3-93f3eb6cf103</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=067fe066c3c0e210d6d19883e401313d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>067fe066c3c0e210d6d19883e401313d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:42:12</sys_created_on>
+        <sys_id>c27fe066c3c0e210d6d19883e4013140</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:42:12</sys_updated_on>
+        <value>Receive Device</value>
+        <variable display_value="Short Description">3751fd0e73141300612c273ffff6a7a6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>067fe066c3c0e210d6d19883e401313d</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:42:12</sys_created_on>
+        <sys_id>ca7fe066c3c0e210d6d19883e4013140</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:42:12</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Wait">f751fd0e73141300612c273ffff6a7b2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>067fe066c3c0e210d6d19883e401313d</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:52</sys_created_on>
+        <sys_id>f1bdfd45c35c2a107c3abdb4e4013171</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:52</sys_updated_on>
+        <value>a13ba022c3c0e210d6d19883e4013194:item_option_new,7949646ec380e210d6d19883e4013105:item_option_new</value>
+        <variable display_value="Catalog Variables">7b51fd0e73141300612c273ffff6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>067fe066c3c0e210d6d19883e401313d</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:52</sys_created_on>
+        <sys_id>f9bdfd45c35c2a107c3abdb4e4013171</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:52</sys_updated_on>
+        <value>77a7642ec380e210d6d19883e401313a</value>
+        <variable display_value="Template Catalog Item">f751fd0e73141300612c273ffff6a7b8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=067fe066c3c0e210d6d19883e401313d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_fields</field>
+        <id>067fe066c3c0e210d6d19883e401313d</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:42:12</sys_created_on>
+        <sys_id>427fe066c3c0e210d6d19883e4013140</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>short_description=Receive Device - {{963a8413-3d0e-4eb9-8234-5a49cfde62eb.device_reference}}^assignment_group={"display":"cc_bits_technicians","value":"a8c213c4c3c426907c3abdb4e40131a6","sys_id":"a8c213c4c3c426907c3abdb4e40131a6"}^sys_domain={{Service Catalog_1.request_item.sys_domain}}^=</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_requested_item</field>
+        <id>067fe066c3c0e210d6d19883e401313d</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:42:12</sys_created_on>
+        <sys_id>ca7fe066c3c0e210d6d19883e401313f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:42:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>067fe066c3c0e210d6d19883e401313d</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:42:12</sys_created_on>
+        <sys_id>0a7fe066c3c0e210d6d19883e401313f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:42:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_wait</field>
+        <id>067fe066c3c0e210d6d19883e401313d</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:42:12</sys_created_on>
+        <sys_id>8e7fe066c3c0e210d6d19883e401313f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:42:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>067fe066c3c0e210d6d19883e401313d</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:52</sys_created_on>
+        <sys_id>71bdfd45c35c2a107c3abdb4e4013170</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>067fe066c3c0e210d6d19883e401313d</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:52</sys_created_on>
+        <sys_id>39bdfd45c35c2a107c3abdb4e4013170</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=067fe066c3c0e210d6d19883e401313d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=067fe066c3c0e210d6d19883e401313d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Buffalo Repairs">a47cec62c3c0e210d6d19883e4013134</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:50:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2069f881c3942a107c3abdb4e4013188</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:57</sys_updated_on>
+        <ui_id>c3f27772-b606-4f97-bc7b-dc9259546f2b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2069f881c3942a107c3abdb4e4013188"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2069f881c3942a107c3abdb4e4013188</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:50:19</sys_created_on>
+        <sys_id>2069f881c3942a107c3abdb4e401318a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:50:19</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2069f881c3942a107c3abdb4e4013188</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:50:19</sys_created_on>
+        <sys_id>6c69f881c3942a107c3abdb4e4013189</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:50:19</sys_updated_on>
+        <value>stage=buff_closed_complete^state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2069f881c3942a107c3abdb4e4013188"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>2069f881c3942a107c3abdb4e4013188</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:50:19</sys_created_on>
+        <sys_id>e869f881c3942a107c3abdb4e4013189</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:50:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>2069f881c3942a107c3abdb4e4013188</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:50:19</sys_created_on>
+        <sys_id>6469f881c3942a107c3abdb4e4013189</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:50:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>2069f881c3942a107c3abdb4e4013188</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:50:19</sys_created_on>
+        <sys_id>2869f881c3942a107c3abdb4e4013189</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:50:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2069f881c3942a107c3abdb4e4013188"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2069f881c3942a107c3abdb4e4013188"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Buffalo Repairs">a47cec62c3c0e210d6d19883e4013134</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:34:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4f9de0e2c3c0e210d6d19883e401310d</sys_id>
+        <sys_mod_count>72</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:57</sys_updated_on>
+        <ui_id>60665fcd-9794-43db-bbe4-c96595395c66</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4f9de0e2c3c0e210d6d19883e401310d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4f9de0e2c3c0e210d6d19883e401310d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:34:04</sys_created_on>
+        <sys_id>0f9de0e2c3c0e210d6d19883e401310f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 14:59:38</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4f9de0e2c3c0e210d6d19883e401310d</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:34:04</sys_created_on>
+        <sys_id>cf9de0e2c3c0e210d6d19883e401310f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:34:04</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4f9de0e2c3c0e210d6d19883e401310d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>4f9de0e2c3c0e210d6d19883e401310d</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:34:04</sys_created_on>
+        <sys_id>8b9de0e2c3c0e210d6d19883e401310f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:34:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>4f9de0e2c3c0e210d6d19883e401310d</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:34:04</sys_created_on>
+        <sys_id>079de0e2c3c0e210d6d19883e401310f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:34:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>4f9de0e2c3c0e210d6d19883e401310d</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:34:04</sys_created_on>
+        <sys_id>c79de0e2c3c0e210d6d19883e401310f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 15:01:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>approval=approved^short_description=fd-scripted^assignment_group={"display":"cc_bits_technicians","value":"a8c213c4c3c426907c3abdb4e40131a6","sys_id":"a8c213c4c3c426907c3abdb4e40131a6"}^sys_domain={{963a8413-3d0e-4eb9-8234-5a49cfde62eb.customer.sys_domain}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4f9de0e2c3c0e210d6d19883e401310d^sys_idNOT IN0a7fe066c3c0e210d6d19883e4013135"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>4f9de0e2c3c0e210d6d19883e401310d</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"short_description":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn fd_data._2__get_catalog_variables.customer.name.toString() + \" Repair Request for Device - \" + fd_data._2__get_catalog_variables.device_reference.serial_number.toString();","savedValue":""}}</script>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:42:12</sys_created_on>
+        <sys_id>0a7fe066c3c0e210d6d19883e4013135</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 19:57:07</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4f9de0e2c3c0e210d6d19883e401310d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Buffalo Repairs">a47cec62c3c0e210d6d19883e4013134</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:50:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6469f881c3942a107c3abdb4e401317f</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:57</sys_updated_on>
+        <ui_id>3bc7eb8b-c3c4-4a0e-b8e5-09954f0a3b8d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6469f881c3942a107c3abdb4e401317f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6469f881c3942a107c3abdb4e401317f</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:52</sys_created_on>
+        <sys_id>71bdfd45c35c2a107c3abdb4e4013176</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:52</sys_updated_on>
+        <value>77a7642ec380e210d6d19883e401313a</value>
+        <variable display_value="Template Catalog Item">f751fd0e73141300612c273ffff6a7b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6469f881c3942a107c3abdb4e401317f</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:52</sys_created_on>
+        <sys_id>bdbdfd45c35c2a107c3abdb4e4013175</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:52</sys_updated_on>
+        <value>a13ba022c3c0e210d6d19883e4013194:item_option_new,7949646ec380e210d6d19883e4013105:item_option_new</value>
+        <variable display_value="Catalog Variables">7b51fd0e73141300612c273ffff6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6469f881c3942a107c3abdb4e401317f</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:49</sys_created_on>
+        <sys_id>e18e944fc318ae10d6d19883e40131d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:49</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Wait">f751fd0e73141300612c273ffff6a7b2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6469f881c3942a107c3abdb4e401317f</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:50:19</sys_created_on>
+        <sys_id>e469f881c3942a107c3abdb4e4013182</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 14:59:38</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">7751fd0e73141300612c273ffff6a7ac</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6469f881c3942a107c3abdb4e401317f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_fields</field>
+        <id>6469f881c3942a107c3abdb4e401317f</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:50:19</sys_created_on>
+        <sys_id>6469f881c3942a107c3abdb4e4013182</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>assignment_group={"display":"cc_bits_technicians","value":"a8c213c4c3c426907c3abdb4e40131a6","sys_id":"a8c213c4c3c426907c3abdb4e40131a6"}^sys_domain={{Service Catalog_1.request_item.sys_domain}}^cmdb_ci={{963a8413-3d0e-4eb9-8234-5a49cfde62eb.device_reference.ci}}^assigned_to={{79bde4ba-d0e1-4c7a-a9c4-287f05e7d8a2.record.assigned_to}}^approval=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_requested_item</field>
+        <id>6469f881c3942a107c3abdb4e401317f</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:50:19</sys_created_on>
+        <sys_id>ac69f881c3942a107c3abdb4e4013181</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:50:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_wait</field>
+        <id>6469f881c3942a107c3abdb4e401317f</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:49</sys_created_on>
+        <sys_id>2d8e944fc318ae10d6d19883e40131d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>6469f881c3942a107c3abdb4e401317f</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:52</sys_created_on>
+        <sys_id>79bdfd45c35c2a107c3abdb4e4013175</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>6469f881c3942a107c3abdb4e401317f</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:52</sys_created_on>
+        <sys_id>3dbdfd45c35c2a107c3abdb4e4013175</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6469f881c3942a107c3abdb4e401317f^sys_idNOT INac69f881c3942a107c3abdb4e4013180"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>ah_short_description</input_name>
+        <instance>6469f881c3942a107c3abdb4e401317f</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_short_description":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn \"Repair Device - \" + fd_data._2__get_catalog_variables.device_reference.serial_number.toString();"}}</script>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:50:19</sys_created_on>
+        <sys_id>ac69f881c3942a107c3abdb4e4013180</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:52</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6469f881c3942a107c3abdb4e401317f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Buffalo Repairs">a47cec62c3c0e210d6d19883e4013134</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>75bdfd45c35c2a107c3abdb4e401317c</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:57</sys_updated_on>
+        <ui_id>94074414-a277-45e6-ac9f-8d5de2ebdaf3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=75bdfd45c35c2a107c3abdb4e401317c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>75bdfd45c35c2a107c3abdb4e401317c</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:52</sys_created_on>
+        <sys_id>39bdfd45c35c2a107c3abdb4e401317f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:52</sys_updated_on>
+        <value>77a7642ec380e210d6d19883e401313a</value>
+        <variable display_value="Template Catalog Item">f751fd0e73141300612c273ffff6a7b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>75bdfd45c35c2a107c3abdb4e401317c</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:52</sys_created_on>
+        <sys_id>75bdfd45c35c2a107c3abdb4e401317f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:49</sys_updated_on>
+        <value>a13ba022c3c0e210d6d19883e4013194:item_option_new,7949646ec380e210d6d19883e4013105:item_option_new,6a8d94cbc318ae10d6d19883e4013164:item_option_new,aead10cbc318ae10d6d19883e4013121:item_option_new</value>
+        <variable display_value="Catalog Variables">7b51fd0e73141300612c273ffff6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>75bdfd45c35c2a107c3abdb4e401317c</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:49</sys_created_on>
+        <sys_id>e58e944fc318ae10d6d19883e40131f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:49</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Wait">f751fd0e73141300612c273ffff6a7b2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=75bdfd45c35c2a107c3abdb4e401317c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_fields</field>
+        <id>75bdfd45c35c2a107c3abdb4e401317c</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:52</sys_created_on>
+        <sys_id>f1bdfd45c35c2a107c3abdb4e401317f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>assignment_group={"display":"cc_bits_technicians","value":"a8c213c4c3c426907c3abdb4e40131a6","sys_id":"a8c213c4c3c426907c3abdb4e40131a6"}^sys_domain={{Service Catalog_1.request_item.sys_domain}}^cmdb_ci={{963a8413-3d0e-4eb9-8234-5a49cfde62eb.device_reference.ci}}^assigned_to={{3bc7eb8b-c3c4-4a0e-b8e5-09954f0a3b8d.Catalog Task.assigned_to}}^approval=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_requested_item</field>
+        <id>75bdfd45c35c2a107c3abdb4e401317c</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:52</sys_created_on>
+        <sys_id>7dbdfd45c35c2a107c3abdb4e401317e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_wait</field>
+        <id>75bdfd45c35c2a107c3abdb4e401317c</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:49</sys_created_on>
+        <sys_id>a98e944fc318ae10d6d19883e40131f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>75bdfd45c35c2a107c3abdb4e401317c</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:52</sys_created_on>
+        <sys_id>b9bdfd45c35c2a107c3abdb4e401317e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>75bdfd45c35c2a107c3abdb4e401317c</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:52</sys_created_on>
+        <sys_id>31bdfd45c35c2a107c3abdb4e401317f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=75bdfd45c35c2a107c3abdb4e401317c^sys_idNOT INbdbdfd45c35c2a107c3abdb4e401317d"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>ah_short_description</input_name>
+        <instance>75bdfd45c35c2a107c3abdb4e401317c</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_short_description":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn \"Ship Device - \" + fd_data._2__get_catalog_variables.device_reference.serial_number.toString();"}}</script>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:52</sys_created_on>
+        <sys_id>bdbdfd45c35c2a107c3abdb4e401317d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:52</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=75bdfd45c35c2a107c3abdb4e401317c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Buffalo Repairs">a47cec62c3c0e210d6d19883e4013134</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a58e944fc318ae10d6d19883e40131eb</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:57</sys_updated_on>
+        <ui_id>06857101-306d-4802-9a0e-4061e166ccbd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a58e944fc318ae10d6d19883e40131eb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a58e944fc318ae10d6d19883e40131eb</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:49</sys_created_on>
+        <sys_id>218e944fc318ae10d6d19883e40131ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:49</sys_updated_on>
+        <value>active=false^state=4</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a58e944fc318ae10d6d19883e40131eb</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:49</sys_created_on>
+        <sys_id>e18e944fc318ae10d6d19883e40131ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:49</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a58e944fc318ae10d6d19883e40131eb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>a58e944fc318ae10d6d19883e40131eb</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:49</sys_created_on>
+        <sys_id>e98e944fc318ae10d6d19883e40131ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a58e944fc318ae10d6d19883e40131eb</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:49</sys_created_on>
+        <sys_id>298e944fc318ae10d6d19883e40131ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{3bc7eb8b-c3c4-4a0e-b8e5-09954f0a3b8d.Catalog Task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a58e944fc318ae10d6d19883e40131eb</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:49</sys_created_on>
+        <sys_id>ad8e944fc318ae10d6d19883e40131ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a58e944fc318ae10d6d19883e40131eb"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a58e944fc318ae10d6d19883e40131eb"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Buffalo Repairs">a47cec62c3c0e210d6d19883e4013134</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:34:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c79da0e2c3c0e210d6d19883e40131e5</sys_id>
+        <sys_mod_count>72</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:57</sys_updated_on>
+        <ui_id>963a8413-3d0e-4eb9-8234-5a49cfde62eb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c79da0e2c3c0e210d6d19883e40131e5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c79da0e2c3c0e210d6d19883e40131e5</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:34:04</sys_created_on>
+        <sys_id>079da0e2c3c0e210d6d19883e40131e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:34:04</sys_updated_on>
+        <value>77a7642ec380e210d6d19883e401313a</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c79da0e2c3c0e210d6d19883e40131e5</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:34:04</sys_created_on>
+        <sys_id>439da0e2c3c0e210d6d19883e40131e8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:53</sys_updated_on>
+        <value>a13ba022c3c0e210d6d19883e4013194:item_option_new,7949646ec380e210d6d19883e4013105:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c79da0e2c3c0e210d6d19883e40131e5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>c79da0e2c3c0e210d6d19883e40131e5</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:34:04</sys_created_on>
+        <sys_id>4b9da0e2c3c0e210d6d19883e40131e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:34:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>c79da0e2c3c0e210d6d19883e40131e5</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:34:04</sys_created_on>
+        <sys_id>cf9da0e2c3c0e210d6d19883e40131e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:34:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>c79da0e2c3c0e210d6d19883e40131e5</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:34:04</sys_created_on>
+        <sys_id>0f9da0e2c3c0e210d6d19883e40131e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:34:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c79da0e2c3c0e210d6d19883e40131e5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c79da0e2c3c0e210d6d19883e40131e5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Buffalo Repairs">a47cec62c3c0e210d6d19883e4013134</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:42:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ce7fe066c3c0e210d6d19883e4013145</sys_id>
+        <sys_mod_count>70</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:57</sys_updated_on>
+        <ui_id>79bde4ba-d0e1-4c7a-a9c4-287f05e7d8a2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ce7fe066c3c0e210d6d19883e4013145"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ce7fe066c3c0e210d6d19883e4013145</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:42:12</sys_created_on>
+        <sys_id>0a7fe066c3c0e210d6d19883e4013147</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:42:12</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ce7fe066c3c0e210d6d19883e4013145"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ce7fe066c3c0e210d6d19883e4013145</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:42:12</sys_created_on>
+        <sys_id>867fe066c3c0e210d6d19883e4013147</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:42:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{c37744fe-a270-4ff3-bbb3-93f3eb6cf103.Catalog Task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ce7fe066c3c0e210d6d19883e4013145</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:42:12</sys_created_on>
+        <sys_id>027fe066c3c0e210d6d19883e4013147</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:42:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>ce7fe066c3c0e210d6d19883e4013145</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:42:12</sys_created_on>
+        <sys_id>c27fe066c3c0e210d6d19883e4013147</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:42:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>state=4^closed_by={{Service Catalog_1.request_item.u_requester.name}}^assigned_to={{Service Catalog_1.request_item.u_requester}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ce7fe066c3c0e210d6d19883e4013145"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ce7fe066c3c0e210d6d19883e4013145"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Buffalo Repairs">a47cec62c3c0e210d6d19883e4013134</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f18ed44fc318ae10d6d19883e4013103</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:57</sys_updated_on>
+        <ui_id>05de7a32-1432-4b59-b7da-096c48b9b3cd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f18ed44fc318ae10d6d19883e4013103"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f18ed44fc318ae10d6d19883e4013103</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:49</sys_created_on>
+        <sys_id>758ed44fc318ae10d6d19883e4013105</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:49</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f18ed44fc318ae10d6d19883e4013103</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:49</sys_created_on>
+        <sys_id>b18ed44fc318ae10d6d19883e4013105</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:49</sys_updated_on>
+        <value>active=false^state=4</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f18ed44fc318ae10d6d19883e4013103"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>f18ed44fc318ae10d6d19883e4013103</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:49</sys_created_on>
+        <sys_id>7d8ed44fc318ae10d6d19883e4013104</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>f18ed44fc318ae10d6d19883e4013103</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:49</sys_created_on>
+        <sys_id>b98ed44fc318ae10d6d19883e4013104</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{94074414-a277-45e6-ac9f-8d5de2ebdaf3.Catalog Task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>f18ed44fc318ae10d6d19883e4013103</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:49</sys_created_on>
+        <sys_id>318ed44fc318ae10d6d19883e4013105</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f18ed44fc318ae10d6d19883e4013103"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f18ed44fc318ae10d6d19883e4013103"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a47cec62c3c0e210d6d19883e4013134"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=a47cec62c3c0e210d6d19883e4013134^sys_idNOT IN0f9da0e2c3c0e210d6d19883e40131da"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">8f9da0e2c3c0e210d6d19883e40131d9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Buffalo Repairs">a47cec62c3c0e210d6d19883e4013134</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:34:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0f9da0e2c3c0e210d6d19883e40131da</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:41</sys_updated_on>
+        <ui_id>60c8b921-f33b-4563-a5ac-66118a922a08</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=0f9da0e2c3c0e210d6d19883e40131da"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>0f9da0e2c3c0e210d6d19883e40131da</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:34:04</sys_created_on>
+        <sys_id>039da0e2c3c0e210d6d19883e40131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:34:04</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>0f9da0e2c3c0e210d6d19883e40131da</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:34:04</sys_created_on>
+        <sys_id>4b9da0e2c3c0e210d6d19883e40131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:34:04</sys_updated_on>
+        <value>1970-01-01 00:00:03</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_a47cec62c3c0e210d6d19883e4013134^id=0f9da0e2c3c0e210d6d19883e40131da"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=0f9da0e2c3c0e210d6d19883e40131da"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=0f9da0e2c3c0e210d6d19883e40131da"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0f9da0e2c3c0e210d6d19883e40131da"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a47cec62c3c0e210d6d19883e4013134"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a47cec62c3c0e210d6d19883e4013134^sys_idNOT IN8f9da0e2c3c0e210d6d19883e40131c6"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=c4d59c28-b974-4b99-989b-a83f56b71118</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>alm_hardware</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>device</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>device</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Buffalo Repairs">a47cec62c3c0e210d6d19883e4013134</model>
+        <model_id>a47cec62c3c0e210d6d19883e4013134</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_a47cec62c3c0e210d6d19883e4013134</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="alm_hardware">alm_hardware</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:34:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8f9da0e2c3c0e210d6d19883e40131c6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:34:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a47cec62c3c0e210d6d19883e4013134^sys_idNOT IN3e9da0e2c3c0e210d6d19883e40131ae,439da0e2c3c0e210d6d19883e40131c1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a47cec62c3c0e210d6d19883e4013134</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:34:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3e9da0e2c3c0e210d6d19883e40131ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:34:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a47cec62c3c0e210d6d19883e4013134</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 18:34:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>439da0e2c3c0e210d6d19883e40131c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 18:34:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a47cec62c3c0e210d6d19883e4013134"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_a47cec62c3c0e210d6d19883e4013134"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a47cec62c3c0e210d6d19883e4013134"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>buffalo_repairs</internal_name>
+        <label_cache>[{"name":"3bc7eb8b-c3c4-4a0e-b8e5-09954f0a3b8d.Catalog Task.assigned_to","label":"6 - Create Catalog Task➛Catalog Task➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_task","column_name":"assigned_to","usedInstances":{"94074414-a277-45e6-ac9f-8d5de2ebdaf3":["assigned_to"]}},{"name":"79bde4ba-d0e1-4c7a-a9c4-287f05e7d8a2.record.assigned_to","label":"5 - Update Record➛Catalog Task Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_task","column_name":"assigned_to","usedInstances":{"3bc7eb8b-c3c4-4a0e-b8e5-09954f0a3b8d":["assigned_to"]}},{"name":"963a8413-3d0e-4eb9-8234-5a49cfde62eb.device_reference.ci","label":"2 - Get Catalog Variables➛device_reference➛Configuration Item","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","parent_table_name":"alm_hardware","column_name":"ci","usedInstances":{"3bc7eb8b-c3c4-4a0e-b8e5-09954f0a3b8d":["cmdb_ci"],"94074414-a277-45e6-ac9f-8d5de2ebdaf3":["cmdb_ci"]}},{"name":"Service Catalog_1.request_item.sys_domain","label":"Trigger - Service Catalog➛Requested Item Record➛Domain","reference":"domain","reference_display":"Domain","type":"domain_id","base_type":"domain_id","parent_table_name":"sc_req_item","column_name":"sys_domain","usedInstances":{"c37744fe-a270-4ff3-bbb3-93f3eb6cf103":["sys_domain"],"492cea9f-da33-4c7f-a0fc-316655a95750":["sys_domain"],"3bc7eb8b-c3c4-4a0e-b8e5-09954f0a3b8d":["sys_domain"],"94074414-a277-45e6-ac9f-8d5de2ebdaf3":["ah_fields"]}},{"name":"Service Catalog_1.request_item.u_requester.sys_domain","label":"Trigger - Service Catalog➛Requested Item Record➛Requester➛Domain","reference":"domain","reference_display":"Domain","type":"domain_id","base_type":"domain_id","parent_table_name":"sys_user","column_name":"sys_domain","usedInstances":{"60665fcd-9794-43db-bbe4-c96595395c66":["sys_domain"]}},{"name":"flow_variable.device","label":"Flow Variables➛device","reference":"alm_hardware","reference_display":"Hardware","type":"reference","base_type":"reference","column_name":"","usedInstances":{"492cea9f-da33-4c7f-a0fc-316655a95750":["asset"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"c4d59c28-b974-4b99-989b-a83f56b71118"}},{"name":"Service Catalog_1.request_item.assignment_group","label":"Trigger - Service Catalog➛Requested Item Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"assignment_group","usedInstances":{"6e4e228b-09cd-48a3-8699-f21316817cb0":["assignment_group"]}},{"name":"Service Catalog_1.request_item.u_requester","label":"Trigger - Service Catalog➛Requested Item Record➛Requester","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"u_requester","usedInstances":{"79bde4ba-d0e1-4c7a-a9c4-287f05e7d8a2":["assigned_to"]}},{"name":"Service Catalog_1.request_item.u_requester.name","label":"Trigger - Service Catalog➛Requested Item Record➛Requester➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"79bde4ba-d0e1-4c7a-a9c4-287f05e7d8a2":["closed_by"]}},{"name":"c37744fe-a270-4ff3-bbb3-93f3eb6cf103.Catalog Task","label":"4 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","usedInstances":{"79bde4ba-d0e1-4c7a-a9c4-287f05e7d8a2":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.device.serial_number","label":"Flow Variables➛device➛Serial number","reference":"","reference_display":"Serial number","type":"string","base_type":"string","parent_table_name":"alm_hardware","column_name":"serial_number","usedInstances":{"60665fcd-9794-43db-bbe4-c96595395c66":["short_description"],"c37744fe-a270-4ff3-bbb3-93f3eb6cf103":["short_description"],"6e4e228b-09cd-48a3-8699-f21316817cb0":["ah_short_description"]}},{"name":"963a8413-3d0e-4eb9-8234-5a49cfde62eb.device_reference","label":"2 - Get Catalog Variables➛device_reference","reference":"alm_hardware","reference_display":"Hardware","type":"reference","base_type":"reference","usedInstances":{"3a0d526f-a67e-4f91-9dda-1eaac4d1733b":["device-0"],"c37744fe-a270-4ff3-bbb3-93f3eb6cf103":["short_description"],"492cea9f-da33-4c7f-a0fc-316655a95750":["asset"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"963a8413-3d0e-4eb9-8234-5a49cfde62eb":["requested_item"],"60665fcd-9794-43db-bbe4-c96595395c66":["record"],"c37744fe-a270-4ff3-bbb3-93f3eb6cf103":["ah_requested_item"],"6e4e228b-09cd-48a3-8699-f21316817cb0":["ah_requested_item"],"492cea9f-da33-4c7f-a0fc-316655a95750":["parent"],"3bc7eb8b-c3c4-4a0e-b8e5-09954f0a3b8d":["ah_requested_item","parent"],"c3f27772-b606-4f97-bc7b-dc9259546f2b":["record"],"94074414-a277-45e6-ac9f-8d5de2ebdaf3":["ah_requested_item"]},"attributes":{"default_search_field":"number"}},{"name":"963a8413-3d0e-4eb9-8234-5a49cfde62eb.add_new_device","label":"2 - Get Catalog Variables➛add_new_device","reference":"","reference_display":"add_new_device","type":"boolean","base_type":"boolean","usedInstances":{"c5323d6c-a64b-40be-b688-6ef354f1b9d8":["condition"]},"attributes":{"catalogType":"7","catalogTypeLabel":"CheckBox"}},{"name":"963a8413-3d0e-4eb9-8234-5a49cfde62eb.serial_number","label":"2 - Get Catalog Variables➛serial_number","reference":"","reference_display":"serial_number","type":"string","base_type":"string","usedInstances":{"a53c66bd-3274-4487-92a5-75c479ecb98b":["serial_number"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"963a8413-3d0e-4eb9-8234-5a49cfde62eb.model","label":"2 - Get Catalog Variables➛model","reference":"cmdb_hardware_product_model","reference_display":"Hardware Model","type":"reference","base_type":"reference","usedInstances":{"a53c66bd-3274-4487-92a5-75c479ecb98b":["model"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"963a8413-3d0e-4eb9-8234-5a49cfde62eb.customer","label":"2 - Get Catalog Variables➛customer","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","usedInstances":{"a53c66bd-3274-4487-92a5-75c479ecb98b":["company"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"a53c66bd-3274-4487-92a5-75c479ecb98b.record","label":"4 - Create Record➛Hardware Record","reference":"alm_hardware","reference_display":"Hardware","type":"reference","base_type":"reference","usedInstances":{"03406912-725c-4d9c-99db-8d0c003d95da":["device-0"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"963a8413-3d0e-4eb9-8234-5a49cfde62eb.customer.sys_domain","label":"2 - Get Catalog Variables➛customer➛Domain","reference":"domain","reference_display":"Domain","type":"domain_id","base_type":"domain_id","parent_table_name":"core_company","column_name":"sys_domain","usedInstances":{"60665fcd-9794-43db-bbe4-c96595395c66":["sys_domain"]}},{"name":"3bc7eb8b-c3c4-4a0e-b8e5-09954f0a3b8d.Catalog Task","label":"6 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","usedInstances":{"06857101-306d-4802-9a0e-4061e166ccbd":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"94074414-a277-45e6-ac9f-8d5de2ebdaf3.Catalog Task","label":"8 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","usedInstances":{"05de7a32-1432-4b59-b7da-096c48b9b3cd":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Buffalo Repairs</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Buffalo Repairs">a47cec62c3c0e210d6d19883e4013134</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d844b0c9c3542a107c3abdb4e40131a1</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:39</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=d844b0c9c3542a107c3abdb4e40131a1"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=d844b0c9c3542a107c3abdb4e40131a1^sys_idNOT INe844f0c9c3542a107c3abdb4e4013186"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Buffalo Repairs">d844b0c9c3542a107c3abdb4e40131a1</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e844f0c9c3542a107c3abdb4e4013186</sys_id>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:40</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e844f0c9c3542a107c3abdb4e4013186"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=d844b0c9c3542a107c3abdb4e40131a1^sys_idNOT IN2044f0c9c3542a107c3abdb4e4013188,2844f0c9c3542a107c3abdb4e4013187,ac44f0c9c3542a107c3abdb4e4013187"/>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>3</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Buffalo Repairs">d844b0c9c3542a107c3abdb4e40131a1</flow>
+        <label>Received</label>
+        <order>0</order>
+        <stage_id>4fa8f285-2967-44a3-9e34-5a8637c002e0</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_class_name>sys_hub_flow_stage</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2044f0c9c3542a107c3abdb4e4013188</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:56</sys_updated_on>
+        <type>standard</type>
+        <value>buff_received</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>5</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Buffalo Repairs">d844b0c9c3542a107c3abdb4e40131a1</flow>
+        <label>In Maintenance</label>
+        <order>1</order>
+        <stage_id>4ac5d965-2b33-418f-b1c7-000925286584</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_class_name>sys_hub_flow_stage</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2844f0c9c3542a107c3abdb4e4013187</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:53</sys_updated_on>
+        <type>standard</type>
+        <value>buff_in_maintenance</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Buffalo Repairs">d844b0c9c3542a107c3abdb4e40131a1</flow>
+        <label>Closed Complete</label>
+        <order>2</order>
+        <stage_id>effd8202-9b08-440f-95dd-11eb5159c15b</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_class_name>sys_hub_flow_stage</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ac44f0c9c3542a107c3abdb4e4013187</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:56</sys_updated_on>
+        <type>standard</type>
+        <value>buff_closed_complete</value>
+    </sys_hub_flow_stage>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d844b0c9c3542a107c3abdb4e40131a1^sys_idNOT INdc44b0c9c3542a107c3abdb4e40131a2"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d844b0c9c3542a107c3abdb4e40131a1</id>
+        <name>Buffalo Repairs</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>dc44b0c9c3542a107c3abdb4e40131a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:55</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=dc44b0c9c3542a107c3abdb4e40131a2"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=d844b0c9c3542a107c3abdb4e40131a1^sys_idNOT IN5844b0c9c3542a107c3abdb4e40131a4,5c44f0c9c3542a107c3abdb4e4013114"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Buffalo Repairs">d844b0c9c3542a107c3abdb4e40131a1</model>
+        <model_id>d844b0c9c3542a107c3abdb4e40131a1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d844b0c9c3542a107c3abdb4e40131a1</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5844b0c9c3542a107c3abdb4e40131a4</sys_id>
+        <sys_mod_count>45</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5844b0c9c3542a107c3abdb4e40131a4"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Buffalo Repairs">d844b0c9c3542a107c3abdb4e40131a1</model>
+        <model_id>d844b0c9c3542a107c3abdb4e40131a1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d844b0c9c3542a107c3abdb4e40131a1</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5c44f0c9c3542a107c3abdb4e4013114</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5c44f0c9c3542a107c3abdb4e4013114"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=d844b0c9c3542a107c3abdb4e40131a1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d844b0c9c3542a107c3abdb4e40131a1"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=d844b0c9c3542a107c3abdb4e40131a1^sys_idNOT IN228e584fc318ae10d6d19883e401314a,6844f0c9c3542a107c3abdb4e401316c,6e8e584fc318ae10d6d19883e4013160,a0494589c3d42a107c3abdb4e40131b2,a444f0c9c3542a107c3abdb4e401317c,a844f0c9c3542a107c3abdb4e4013133,a8494589c3d42a107c3abdb4e40131ba,ac44f0c9c3542a107c3abdb4e4013154,d2bd3185c35c2a107c3abdb4e40131c2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Buffalo Repairs">d844b0c9c3542a107c3abdb4e40131a1</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>228e584fc318ae10d6d19883e401314a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:39</sys_updated_on>
+        <ui_id>06857101-306d-4802-9a0e-4061e166ccbd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=228e584fc318ae10d6d19883e401314a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>228e584fc318ae10d6d19883e401314a</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:53</sys_created_on>
+        <sys_id>6a8e584fc318ae10d6d19883e4013158</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:53</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>228e584fc318ae10d6d19883e401314a</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:53</sys_created_on>
+        <sys_id>a68e584fc318ae10d6d19883e4013158</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:53</sys_updated_on>
+        <value>active=false^state=4</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=228e584fc318ae10d6d19883e401314a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>228e584fc318ae10d6d19883e401314a</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:53</sys_created_on>
+        <sys_id>628e584fc318ae10d6d19883e4013158</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>228e584fc318ae10d6d19883e401314a</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:53</sys_created_on>
+        <sys_id>ae8e584fc318ae10d6d19883e4013157</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{3bc7eb8b-c3c4-4a0e-b8e5-09954f0a3b8d.Catalog Task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>228e584fc318ae10d6d19883e401314a</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:53</sys_created_on>
+        <sys_id>268e584fc318ae10d6d19883e4013158</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=228e584fc318ae10d6d19883e401314a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=228e584fc318ae10d6d19883e401314a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Buffalo Repairs">d844b0c9c3542a107c3abdb4e40131a1</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6844f0c9c3542a107c3abdb4e401316c</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:39</sys_updated_on>
+        <ui_id>c37744fe-a270-4ff3-bbb3-93f3eb6cf103</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6844f0c9c3542a107c3abdb4e401316c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6844f0c9c3542a107c3abdb4e401316c</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:54</sys_created_on>
+        <sys_id>1ebd3185c35c2a107c3abdb4e40131a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:54</sys_updated_on>
+        <value>a13ba022c3c0e210d6d19883e4013194:item_option_new,7949646ec380e210d6d19883e4013105:item_option_new</value>
+        <variable display_value="Catalog Variables">7b51fd0e73141300612c273ffff6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6844f0c9c3542a107c3abdb4e401316c</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:56</sys_created_on>
+        <sys_id>2044f0c9c3542a107c3abdb4e401316f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:56</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Wait">f751fd0e73141300612c273ffff6a7b2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6844f0c9c3542a107c3abdb4e401316c</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:56</sys_created_on>
+        <sys_id>6c44f0c9c3542a107c3abdb4e401316e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:56</sys_updated_on>
+        <value>Receive Device</value>
+        <variable display_value="Short Description">3751fd0e73141300612c273ffff6a7a6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6844f0c9c3542a107c3abdb4e401316c</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:54</sys_created_on>
+        <sys_id>debd3185c35c2a107c3abdb4e40131a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:54</sys_updated_on>
+        <value>77a7642ec380e210d6d19883e401313a</value>
+        <variable display_value="Template Catalog Item">f751fd0e73141300612c273ffff6a7b8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6844f0c9c3542a107c3abdb4e401316c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_fields</field>
+        <id>6844f0c9c3542a107c3abdb4e401316c</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:56</sys_created_on>
+        <sys_id>e844f0c9c3542a107c3abdb4e401316e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>short_description=Receive Device - {{963a8413-3d0e-4eb9-8234-5a49cfde62eb.device_reference}}^assignment_group={"display":"cc_bits_technicians","value":"a8c213c4c3c426907c3abdb4e40131a6","sys_id":"a8c213c4c3c426907c3abdb4e40131a6"}^sys_domain={{Service Catalog_1.request_item.sys_domain}}^=</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_requested_item</field>
+        <id>6844f0c9c3542a107c3abdb4e401316c</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:56</sys_created_on>
+        <sys_id>6444f0c9c3542a107c3abdb4e401316e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>6844f0c9c3542a107c3abdb4e401316c</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:56</sys_created_on>
+        <sys_id>a044f0c9c3542a107c3abdb4e401316e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_wait</field>
+        <id>6844f0c9c3542a107c3abdb4e401316c</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:56</sys_created_on>
+        <sys_id>2844f0c9c3542a107c3abdb4e401316e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>6844f0c9c3542a107c3abdb4e401316c</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:54</sys_created_on>
+        <sys_id>16bd3185c35c2a107c3abdb4e40131a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>6844f0c9c3542a107c3abdb4e401316c</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:54</sys_created_on>
+        <sys_id>d6bd3185c35c2a107c3abdb4e40131a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6844f0c9c3542a107c3abdb4e401316c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6844f0c9c3542a107c3abdb4e401316c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Buffalo Repairs">d844b0c9c3542a107c3abdb4e40131a1</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6e8e584fc318ae10d6d19883e4013160</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:39</sys_updated_on>
+        <ui_id>05de7a32-1432-4b59-b7da-096c48b9b3cd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6e8e584fc318ae10d6d19883e4013160"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e8e584fc318ae10d6d19883e4013160</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:53</sys_created_on>
+        <sys_id>2e8e584fc318ae10d6d19883e4013162</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:53</sys_updated_on>
+        <value>active=false^state=4</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e8e584fc318ae10d6d19883e4013160</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:53</sys_created_on>
+        <sys_id>ee8e584fc318ae10d6d19883e4013162</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:53</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6e8e584fc318ae10d6d19883e4013160"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>6e8e584fc318ae10d6d19883e4013160</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:53</sys_created_on>
+        <sys_id>e68e584fc318ae10d6d19883e4013162</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>6e8e584fc318ae10d6d19883e4013160</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:53</sys_created_on>
+        <sys_id>268e584fc318ae10d6d19883e4013162</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{94074414-a277-45e6-ac9f-8d5de2ebdaf3.Catalog Task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>6e8e584fc318ae10d6d19883e4013160</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:53</sys_created_on>
+        <sys_id>aa8e584fc318ae10d6d19883e4013162</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6e8e584fc318ae10d6d19883e4013160"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6e8e584fc318ae10d6d19883e4013160"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Buffalo Repairs">d844b0c9c3542a107c3abdb4e40131a1</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 14:59:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a0494589c3d42a107c3abdb4e40131b2</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:39</sys_updated_on>
+        <ui_id>3bc7eb8b-c3c4-4a0e-b8e5-09954f0a3b8d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a0494589c3d42a107c3abdb4e40131b2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a0494589c3d42a107c3abdb4e40131b2</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:54</sys_created_on>
+        <sys_id>92bd3185c35c2a107c3abdb4e40131ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:54</sys_updated_on>
+        <value>77a7642ec380e210d6d19883e401313a</value>
+        <variable display_value="Template Catalog Item">f751fd0e73141300612c273ffff6a7b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a0494589c3d42a107c3abdb4e40131b2</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:53</sys_created_on>
+        <sys_id>a68e584fc318ae10d6d19883e4013142</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:53</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Wait">f751fd0e73141300612c273ffff6a7b2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a0494589c3d42a107c3abdb4e40131b2</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:54</sys_created_on>
+        <sys_id>debd3185c35c2a107c3abdb4e40131ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:54</sys_updated_on>
+        <value>a13ba022c3c0e210d6d19883e4013194:item_option_new,7949646ec380e210d6d19883e4013105:item_option_new</value>
+        <variable display_value="Catalog Variables">7b51fd0e73141300612c273ffff6a7be</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a0494589c3d42a107c3abdb4e40131b2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_fields</field>
+        <id>a0494589c3d42a107c3abdb4e40131b2</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 14:59:40</sys_created_on>
+        <sys_id>ac494589c3d42a107c3abdb4e40131b4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>assignment_group={"display":"cc_bits_technicians","value":"a8c213c4c3c426907c3abdb4e40131a6","sys_id":"a8c213c4c3c426907c3abdb4e40131a6"}^sys_domain={{Service Catalog_1.request_item.sys_domain}}^cmdb_ci={{963a8413-3d0e-4eb9-8234-5a49cfde62eb.device_reference.ci}}^assigned_to={{79bde4ba-d0e1-4c7a-a9c4-287f05e7d8a2.record.assigned_to}}^approval=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_requested_item</field>
+        <id>a0494589c3d42a107c3abdb4e40131b2</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 14:59:40</sys_created_on>
+        <sys_id>e4494589c3d42a107c3abdb4e40131b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 14:59:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_wait</field>
+        <id>a0494589c3d42a107c3abdb4e40131b2</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:53</sys_created_on>
+        <sys_id>268e584fc318ae10d6d19883e4013142</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>a0494589c3d42a107c3abdb4e40131b2</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:54</sys_created_on>
+        <sys_id>9abd3185c35c2a107c3abdb4e40131ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>a0494589c3d42a107c3abdb4e40131b2</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:54</sys_created_on>
+        <sys_id>5ebd3185c35c2a107c3abdb4e40131ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a0494589c3d42a107c3abdb4e40131b2^sys_idNOT INe8494589c3d42a107c3abdb4e40131b3"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>ah_short_description</input_name>
+        <instance>a0494589c3d42a107c3abdb4e40131b2</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_short_description":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn \"Repair Device - \" + fd_data._2__get_catalog_variables.device_reference.serial_number.toString();"}}</script>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 14:59:40</sys_created_on>
+        <sys_id>e8494589c3d42a107c3abdb4e40131b3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:54</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a0494589c3d42a107c3abdb4e40131b2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Buffalo Repairs">d844b0c9c3542a107c3abdb4e40131a1</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a444f0c9c3542a107c3abdb4e401317c</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:39</sys_updated_on>
+        <ui_id>79bde4ba-d0e1-4c7a-a9c4-287f05e7d8a2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a444f0c9c3542a107c3abdb4e401317c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a444f0c9c3542a107c3abdb4e401317c</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:56</sys_created_on>
+        <sys_id>ec44f0c9c3542a107c3abdb4e401317d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:56</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a444f0c9c3542a107c3abdb4e401317c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a444f0c9c3542a107c3abdb4e401317c</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:56</sys_created_on>
+        <sys_id>6c44f0c9c3542a107c3abdb4e401317d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{c37744fe-a270-4ff3-bbb3-93f3eb6cf103.Catalog Task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a444f0c9c3542a107c3abdb4e401317c</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:56</sys_created_on>
+        <sys_id>e444f0c9c3542a107c3abdb4e401317d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a444f0c9c3542a107c3abdb4e401317c</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:56</sys_created_on>
+        <sys_id>a844f0c9c3542a107c3abdb4e401317d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>state=4^closed_by={{Service Catalog_1.request_item.u_requester.name}}^assigned_to={{Service Catalog_1.request_item.u_requester}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a444f0c9c3542a107c3abdb4e401317c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a444f0c9c3542a107c3abdb4e401317c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Buffalo Repairs">d844b0c9c3542a107c3abdb4e40131a1</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a844f0c9c3542a107c3abdb4e4013133</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:39</sys_updated_on>
+        <ui_id>963a8413-3d0e-4eb9-8234-5a49cfde62eb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a844f0c9c3542a107c3abdb4e4013133"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a844f0c9c3542a107c3abdb4e4013133</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_id>a444f0c9c3542a107c3abdb4e4013135</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:55</sys_updated_on>
+        <value>77a7642ec380e210d6d19883e401313a</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a844f0c9c3542a107c3abdb4e4013133</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_id>e044f0c9c3542a107c3abdb4e4013135</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:55</sys_updated_on>
+        <value>a13ba022c3c0e210d6d19883e4013194:item_option_new,7949646ec380e210d6d19883e4013105:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a844f0c9c3542a107c3abdb4e4013133"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>a844f0c9c3542a107c3abdb4e4013133</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_id>e844f0c9c3542a107c3abdb4e4013134</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>a844f0c9c3542a107c3abdb4e4013133</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_id>6044f0c9c3542a107c3abdb4e4013135</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>a844f0c9c3542a107c3abdb4e4013133</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_id>ac44f0c9c3542a107c3abdb4e4013134</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a844f0c9c3542a107c3abdb4e4013133"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a844f0c9c3542a107c3abdb4e4013133"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Buffalo Repairs">d844b0c9c3542a107c3abdb4e40131a1</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 14:59:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a8494589c3d42a107c3abdb4e40131ba</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:39</sys_updated_on>
+        <ui_id>c3f27772-b606-4f97-bc7b-dc9259546f2b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a8494589c3d42a107c3abdb4e40131ba"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a8494589c3d42a107c3abdb4e40131ba</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 14:59:40</sys_created_on>
+        <sys_id>e0494589c3d42a107c3abdb4e40131bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 14:59:40</sys_updated_on>
+        <value>stage=buff_closed_complete^state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a8494589c3d42a107c3abdb4e40131ba</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 14:59:40</sys_created_on>
+        <sys_id>e8494589c3d42a107c3abdb4e40131bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 14:59:40</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a8494589c3d42a107c3abdb4e40131ba"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a8494589c3d42a107c3abdb4e40131ba</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 14:59:40</sys_created_on>
+        <sys_id>60494589c3d42a107c3abdb4e40131bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 14:59:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a8494589c3d42a107c3abdb4e40131ba</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 14:59:40</sys_created_on>
+        <sys_id>e8494589c3d42a107c3abdb4e40131bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 14:59:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a8494589c3d42a107c3abdb4e40131ba</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 14:59:40</sys_created_on>
+        <sys_id>ac494589c3d42a107c3abdb4e40131bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 14:59:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a8494589c3d42a107c3abdb4e40131ba"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a8494589c3d42a107c3abdb4e40131ba"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Buffalo Repairs">d844b0c9c3542a107c3abdb4e40131a1</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ac44f0c9c3542a107c3abdb4e4013154</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:39</sys_updated_on>
+        <ui_id>60665fcd-9794-43db-bbe4-c96595395c66</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ac44f0c9c3542a107c3abdb4e4013154"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ac44f0c9c3542a107c3abdb4e4013154</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_id>2444f0c9c3542a107c3abdb4e4013157</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 14:59:40</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ac44f0c9c3542a107c3abdb4e4013154</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_id>e444f0c9c3542a107c3abdb4e4013157</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:55</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ac44f0c9c3542a107c3abdb4e4013154"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ac44f0c9c3542a107c3abdb4e4013154</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_id>a044f0c9c3542a107c3abdb4e4013157</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ac44f0c9c3542a107c3abdb4e4013154</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_id>2c44f0c9c3542a107c3abdb4e4013156</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>ac44f0c9c3542a107c3abdb4e4013154</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_id>ec44f0c9c3542a107c3abdb4e4013156</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 15:01:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>approval=approved^short_description=fd-scripted^assignment_group={"display":"cc_bits_technicians","value":"a8c213c4c3c426907c3abdb4e40131a6","sys_id":"a8c213c4c3c426907c3abdb4e40131a6"}^sys_domain={{963a8413-3d0e-4eb9-8234-5a49cfde62eb.customer.sys_domain}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ac44f0c9c3542a107c3abdb4e4013154^sys_idNOT INac44f0c9c3542a107c3abdb4e4013155"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>ac44f0c9c3542a107c3abdb4e4013154</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"short_description":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn fd_data._2__get_catalog_variables.customer.name.toString() + \" Repair Request for Device - \" + fd_data._2__get_catalog_variables.device_reference.serial_number.toString();","savedValue":""}}</script>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_id>ac44f0c9c3542a107c3abdb4e4013155</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 19:57:14</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ac44f0c9c3542a107c3abdb4e4013154"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Buffalo Repairs">d844b0c9c3542a107c3abdb4e40131a1</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d2bd3185c35c2a107c3abdb4e40131c2</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:39</sys_updated_on>
+        <ui_id>94074414-a277-45e6-ac9f-8d5de2ebdaf3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d2bd3185c35c2a107c3abdb4e40131c2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d2bd3185c35c2a107c3abdb4e40131c2</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:54</sys_created_on>
+        <sys_id>5ebd3185c35c2a107c3abdb4e40131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:54</sys_updated_on>
+        <value>77a7642ec380e210d6d19883e401313a</value>
+        <variable display_value="Template Catalog Item">f751fd0e73141300612c273ffff6a7b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d2bd3185c35c2a107c3abdb4e40131c2</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:54</sys_created_on>
+        <sys_id>9abd3185c35c2a107c3abdb4e40131c4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:53</sys_updated_on>
+        <value>a13ba022c3c0e210d6d19883e4013194:item_option_new,7949646ec380e210d6d19883e4013105:item_option_new,6a8d94cbc318ae10d6d19883e4013164:item_option_new,aead10cbc318ae10d6d19883e4013121:item_option_new</value>
+        <variable display_value="Catalog Variables">7b51fd0e73141300612c273ffff6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d2bd3185c35c2a107c3abdb4e40131c2</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:53</sys_created_on>
+        <sys_id>a68e584fc318ae10d6d19883e401315b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:53</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Wait">f751fd0e73141300612c273ffff6a7b2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d2bd3185c35c2a107c3abdb4e40131c2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_fields</field>
+        <id>d2bd3185c35c2a107c3abdb4e40131c2</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:54</sys_created_on>
+        <sys_id>1abd3185c35c2a107c3abdb4e40131c4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>assignment_group={"display":"cc_bits_technicians","value":"a8c213c4c3c426907c3abdb4e40131a6","sys_id":"a8c213c4c3c426907c3abdb4e40131a6"}^sys_domain={{Service Catalog_1.request_item.sys_domain}}^cmdb_ci={{963a8413-3d0e-4eb9-8234-5a49cfde62eb.device_reference.ci}}^assigned_to={{3bc7eb8b-c3c4-4a0e-b8e5-09954f0a3b8d.Catalog Task.assigned_to}}^approval=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_requested_item</field>
+        <id>d2bd3185c35c2a107c3abdb4e40131c2</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:54</sys_created_on>
+        <sys_id>92bd3185c35c2a107c3abdb4e40131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_wait</field>
+        <id>d2bd3185c35c2a107c3abdb4e40131c2</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 17:00:53</sys_created_on>
+        <sys_id>628e584fc318ae10d6d19883e401315b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:00:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>d2bd3185c35c2a107c3abdb4e40131c2</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:54</sys_created_on>
+        <sys_id>debd3185c35c2a107c3abdb4e40131c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>d2bd3185c35c2a107c3abdb4e40131c2</id>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:54</sys_created_on>
+        <sys_id>56bd3185c35c2a107c3abdb4e40131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d2bd3185c35c2a107c3abdb4e40131c2^sys_idNOT INd6bd3185c35c2a107c3abdb4e40131c3"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>ah_short_description</input_name>
+        <instance>d2bd3185c35c2a107c3abdb4e40131c2</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_short_description":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn \"Ship Device - \" + fd_data._2__get_catalog_variables.device_reference.serial_number.toString();"}}</script>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 18:48:54</sys_created_on>
+        <sys_id>d6bd3185c35c2a107c3abdb4e40131c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:48:54</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d2bd3185c35c2a107c3abdb4e40131c2"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=d844b0c9c3542a107c3abdb4e40131a1"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=d844b0c9c3542a107c3abdb4e40131a1^sys_idNOT IN6844f0c9c3542a107c3abdb4e4013127"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">8f9da0e2c3c0e210d6d19883e40131d9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Buffalo Repairs">d844b0c9c3542a107c3abdb4e40131a1</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6844f0c9c3542a107c3abdb4e4013127</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:33:39</sys_updated_on>
+        <ui_id>60c8b921-f33b-4563-a5ac-66118a922a08</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6844f0c9c3542a107c3abdb4e4013127"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6844f0c9c3542a107c3abdb4e4013127</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_id>a044f0c9c3542a107c3abdb4e401312d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:55</sys_updated_on>
+        <value>1970-01-01 00:00:03</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6844f0c9c3542a107c3abdb4e4013127</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_id>ec44f0c9c3542a107c3abdb4e401312c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:55</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_d844b0c9c3542a107c3abdb4e40131a1^id=6844f0c9c3542a107c3abdb4e4013127"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=6844f0c9c3542a107c3abdb4e4013127"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6844f0c9c3542a107c3abdb4e4013127"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6844f0c9c3542a107c3abdb4e4013127"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=d844b0c9c3542a107c3abdb4e40131a1"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=d844b0c9c3542a107c3abdb4e40131a1^sys_idNOT IN2444f0c9c3542a107c3abdb4e4013121"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=c4d59c28-b974-4b99-989b-a83f56b71118</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>alm_hardware</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>device</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>device</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Buffalo Repairs">d844b0c9c3542a107c3abdb4e40131a1</model>
+        <model_id>d844b0c9c3542a107c3abdb4e40131a1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_d844b0c9c3542a107c3abdb4e40131a1</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="alm_hardware">alm_hardware</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2444f0c9c3542a107c3abdb4e4013121</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d844b0c9c3542a107c3abdb4e40131a1^sys_idNOT IN1044f0c9c3542a107c3abdb4e4013111,2044f0c9c3542a107c3abdb4e4013119"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d844b0c9c3542a107c3abdb4e40131a1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1044f0c9c3542a107c3abdb4e4013111</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d844b0c9c3542a107c3abdb4e40131a1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2044f0c9c3542a107c3abdb4e4013119</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 13:27:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d844b0c9c3542a107c3abdb4e40131a1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_d844b0c9c3542a107c3abdb4e40131a1"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d844b0c9c3542a107c3abdb4e40131a1"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>a47cec62c3c0e210d6d19883e4013134</sys_id>
+        <latest_snapshot>d844b0c9c3542a107c3abdb4e40131a1</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch9b-01-15-2025_02-04-2025_0837.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=a47cec62c3c0e210d6d19883e4013134^sys_idNOT IN7444f0c9c3542a107c3abdb4e40131b4"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"7444f0c9c3542a107c3abdb4e40131b4","name":"plan","plan_signature":null}}</plan>
+        <plan_id>a47cec62c3c0e210d6d19883e4013134</plan_id>
+        <snapshot>f616648fc31ca2507c3abdb4e40131d7</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-13 13:27:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7444f0c9c3542a107c3abdb4e40131b4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 17:14:14</sys_updated_on>
+        <trigger display_value="">3c44f0c9c3542a107c3abdb4e40131b3</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=a47cec62c3c0e210d6d19883e4013134"/>
+</record_update>

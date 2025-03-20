@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <exclude_attachments_in_now_assist_genius_results>false</exclude_attachments_in_now_assist_genius_results>
+        <exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results>
+        <exclude_in_regular_search>false</exclude_in_regular_search>
+        <profile display_value="buffalo-repairs Search Profile">65636c26b980e2108be7f6f3bdc164bd</profile>
+        <search_source display_value="Hardware">64732066c380e210d6d19883e40131ef</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 17:49:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f4732066c380e210d6d19883e40131f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>buffalo-repairs Search Profile.Hardware</sys_name>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_f4732066c380e210d6d19883e40131f3</sys_update_name>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 17:49:40</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

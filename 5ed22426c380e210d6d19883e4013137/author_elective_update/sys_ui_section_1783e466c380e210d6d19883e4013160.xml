@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Substitutes" section_id="1783e466c380e210d6d19883e4013160" sys_domain="global" table="cmdb_hardware_product_model" version="3" view="workspace-buffalo-repairs-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>REL.cmdb_hardware_product_model.REL:355533afdf16300068c383f36bf26335</element>
+            <position>0</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_id>9383e466c380e210d6d19883e4013162</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Substitutes" display_value="Substitutes" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">1783e466c380e210d6d19883e4013160</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Substitutes</caption>
+            <header>false</header>
+            <name>cmdb_hardware_product_model</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:50:08</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1783e466c380e210d6d19883e4013160</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_hardware_product_model</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+            <sys_update_name>sys_ui_section_1783e466c380e210d6d19883e4013160</sys_update_name>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:50:08</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Buffalo Repairs 0" name="workspace-buffalo-repairs-0">2d636c264a80e210b047a8a8d10817b3</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</application>
+        <file_path/>
+        <instance_id>e71bdd136f64de40869e7b2f5d3ee439</instance_id>
+        <instance_name>pivottsdev</instance_name>
+        <name>sys_ui_section_1783e466c380e210d6d19883e4013160</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Substitutes" section_id="1783e466c380e210d6d19883e4013160" sys_domain="global" table="cmdb_hardware_product_model" version="3" view="workspace-buffalo-repairs-0"><sys_ui_element action="INSERT_OR_UPDATE"><element>REL.cmdb_hardware_product_model.REL:355533afdf16300068c383f36bf26335</element><position>0</position><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_id>9383e466c380e210d6d19883e4013162</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Substitutes" display_value="Substitutes" name="cmdb_hardware_product_model" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">1783e466c380e210d6d19883e4013160</sys_ui_section><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><type>list</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Substitutes</caption><header>false</header><name>cmdb_hardware_product_model</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 17:50:08</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1783e466c380e210d6d19883e4013160</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cmdb_hardware_product_model</sys_name><sys_overrides/><sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope><sys_update_name>sys_ui_section_1783e466c380e210d6d19883e4013160</sys_update_name><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 17:50:08</sys_updated_on><sys_user/><title>false</title><view display_value="Workspace Buffalo Repairs 0" name="workspace-buffalo-repairs-0">2d636c264a80e210b047a8a8d10817b3</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>340003207</payload_hash>
+        <record_name>Hardware Model</record_name>
+        <reverted_from/>
+        <source>d6d22426c380e210d6d19883e401313c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 17:50:09</sys_created_on>
+        <sys_id>a783e466c380e210d6d19883e4013182</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195676de1130000001</sys_recorded_at>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 17:50:09</sys_updated_on>
+        <type>Form Layout</type>
+        <u_link>[code]&lt;a title="sys_ui_section_1783e466c380e210d6d19883e4013160" class="linked" href="sys_ui_section.do?sys_id=1783e466c380e210d6d19883e4013160"&gt;sys_ui_section_1783e466c380e210d6d19883e4013160&lt;/a&gt;[/code]</u_link>
+        <update_guid>2f83e4667a80e210f175444e5caef081</update_guid>
+        <update_guid_history>2f83e4667a80e210f175444e5caef081:340003207</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-19 18:10:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>27025fa498eb46d185635cff3f1896d9</sys_id>
+        <sys_metadata>1783e466c380e210d6d19883e4013160</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Substitutes</sys_name>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_parent display_value="CMDB Hardware Product Model">a981ed5313201200a588babed144b0b7</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_scope_delete display_value="">8d27cd11fd0e41748c2fd7ef1ebdd871</sys_scope_delete>
+        <sys_update_name>sys_ui_section_1783e466c380e210d6d19883e4013160</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_1783e466c380e210d6d19883e4013160">a783e466c380e210d6d19883e4013182</sys_update_version>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 18:10:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

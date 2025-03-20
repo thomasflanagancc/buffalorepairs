@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>NAV_ITEM_SELECTED_RELAY_631a9922c384e210d6d19883e4013181</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Link to destination Relay (Receive Device)</label>
+        <props>[
+    {
+        "defaultValue": null,
+        "fieldType": "string",
+        "interfaceApiName": "global.route",
+        "label": "Route type",
+        "name": "route",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "Route fields",
+        "name": "fields",
+        "type": "json",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "Optionals parameters",
+        "name": "params",
+        "type": "json",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "boolean",
+        "label": "Remove previous URL from browser history",
+        "name": "redirect",
+        "type": "boolean",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Option to load record in background",
+        "fieldType": "boolean",
+        "label": "Load in background (advanced)",
+        "name": "passiveNavigation",
+        "type": "boolean",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Name of tab and browser title",
+        "fieldType": "string",
+        "label": "Title (advanced)",
+        "name": "title",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Specifies which field in route configuration should be used to enable multiple instances of a new record",
+        "fieldType": "string",
+        "label": "Multi-instance field (advanced)",
+        "name": "multiInstField",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Entering \"current\" opens a record in a sub-tab",
+        "fieldType": "string",
+        "label": "Sub-navigation route (advanced)",
+        "name": "targetRoute",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Object for linking to an external URL",
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "External URL object",
+        "name": "external",
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "target": {
+                        "description": "Target window to open. Default is _blank",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "The URL to open",
+                        "type": "string"
+                    }
+                },
+                "title": "External URL Object",
+                "type": "object"
+            }
+        },
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Object for more navigation options",
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "Navigation Options object",
+        "name": "navigationOptions",
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "navigateExternal": {
+                        "description": "Enable external navigation",
+                        "type": "boolean"
+                    },
+                    "targetWindowRef": {
+                        "description": "Target window opened by action dispatcher",
+                        "type": "object"
+                    },
+                    "windowOptions": {
+                        "description": "Target and windowOptions with which window.open to be called. Default values are _blank and emptyString",
+                        "type": "json"
+                    }
+                },
+                "title": "Navigation Options Object",
+                "type": "object"
+            }
+        },
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Entering \"current\" opens a record in a sub-tab",
+  "comment" : ""
+}, {
+  "message" : "External URL object",
+  "comment" : ""
+}, {
+  "message" : "Load in background (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Multi-instance field (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Name of tab and browser title",
+  "comment" : ""
+}, {
+  "message" : "Navigation Options object",
+  "comment" : ""
+}, {
+  "message" : "Object for linking to an external URL",
+  "comment" : ""
+}, {
+  "message" : "Object for more navigation options",
+  "comment" : ""
+}, {
+  "message" : "Option to load record in background",
+  "comment" : ""
+}, {
+  "message" : "Optionals parameters",
+  "comment" : ""
+}, {
+  "message" : "Remove previous URL from browser history",
+  "comment" : ""
+}, {
+  "message" : "Route fields",
+  "comment" : ""
+}, {
+  "message" : "Route type",
+  "comment" : ""
+}, {
+  "message" : "Specifies which field in route configuration should be used to enable multiple instances of a new record",
+  "comment" : ""
+}, {
+  "message" : "Sub-navigation route (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Title (advanced)",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-07 18:16:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b49a32c3c34c62d07c3abdb4e40131e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Link to destination Relay (Receive Device)</sys_name>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name>sys_ux_event_b49a32c3c34c62d07c3abdb4e40131e1</sys_update_name>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-07 18:16:19</sys_updated_on>
+    </sys_ux_event>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</application>
+        <file_path/>
+        <instance_id>e71bdd136f64de40869e7b2f5d3ee439</instance_id>
+        <instance_name>pivottsdev</instance_name>
+        <name>sys_ux_event_b49a32c3c34c62d07c3abdb4e40131e1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>NAV_ITEM_SELECTED_RELAY_631a9922c384e210d6d19883e4013181</event_name><explicit_api_name/><interfaces/><label>Link to destination Relay (Receive Device)</label><props>[
+    {
+        "defaultValue": null,
+        "fieldType": "string",
+        "interfaceApiName": "global.route",
+        "label": "Route type",
+        "name": "route",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "Route fields",
+        "name": "fields",
+        "type": "json",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "Optionals parameters",
+        "name": "params",
+        "type": "json",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "boolean",
+        "label": "Remove previous URL from browser history",
+        "name": "redirect",
+        "type": "boolean",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Option to load record in background",
+        "fieldType": "boolean",
+        "label": "Load in background (advanced)",
+        "name": "passiveNavigation",
+        "type": "boolean",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Name of tab and browser title",
+        "fieldType": "string",
+        "label": "Title (advanced)",
+        "name": "title",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Specifies which field in route configuration should be used to enable multiple instances of a new record",
+        "fieldType": "string",
+        "label": "Multi-instance field (advanced)",
+        "name": "multiInstField",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Entering \"current\" opens a record in a sub-tab",
+        "fieldType": "string",
+        "label": "Sub-navigation route (advanced)",
+        "name": "targetRoute",
+        "type": "string",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Object for linking to an external URL",
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "External URL object",
+        "name": "external",
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "target": {
+                        "description": "Target window to open. Default is _blank",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "The URL to open",
+                        "type": "string"
+                    }
+                },
+                "title": "External URL Object",
+                "type": "object"
+            }
+        },
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Object for more navigation options",
+        "fieldType": "json",
+        "interfaceApiName": "global.route",
+        "label": "Navigation Options object",
+        "name": "navigationOptions",
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "navigateExternal": {
+                        "description": "Enable external navigation",
+                        "type": "boolean"
+                    },
+                    "targetWindowRef": {
+                        "description": "Target window opened by action dispatcher",
+                        "type": "object"
+                    },
+                    "windowOptions": {
+                        "description": "Target and windowOptions with which window.open to be called. Default values are _blank and emptyString",
+                        "type": "json"
+                    }
+                },
+                "title": "Navigation Options Object",
+                "type": "object"
+            }
+        },
+        "valueType": "string"
+    }
+]</props><required_translations>[ {
+  "message" : "Entering \"current\" opens a record in a sub-tab",
+  "comment" : ""
+}, {
+  "message" : "External URL object",
+  "comment" : ""
+}, {
+  "message" : "Load in background (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Multi-instance field (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Name of tab and browser title",
+  "comment" : ""
+}, {
+  "message" : "Navigation Options object",
+  "comment" : ""
+}, {
+  "message" : "Object for linking to an external URL",
+  "comment" : ""
+}, {
+  "message" : "Object for more navigation options",
+  "comment" : ""
+}, {
+  "message" : "Option to load record in background",
+  "comment" : ""
+}, {
+  "message" : "Optionals parameters",
+  "comment" : ""
+}, {
+  "message" : "Remove previous URL from browser history",
+  "comment" : ""
+}, {
+  "message" : "Route fields",
+  "comment" : ""
+}, {
+  "message" : "Route type",
+  "comment" : ""
+}, {
+  "message" : "Specifies which field in route configuration should be used to enable multiple instances of a new record",
+  "comment" : ""
+}, {
+  "message" : "Sub-navigation route (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Title (advanced)",
+  "comment" : ""
+} ]</required_translations><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-07 18:16:19</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>b49a32c3c34c62d07c3abdb4e40131e1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Link to destination Relay (Receive Device)</sys_name><sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope><sys_update_name>sys_ux_event_b49a32c3c34c62d07c3abdb4e40131e1</sys_update_name><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-07 18:16:19</sys_updated_on></sys_ux_event></record_update>]]></payload>
+        <payload_hash>709002980</payload_hash>
+        <record_name>Link to destination Relay (Receive Device)</record_name>
+        <reverted_from/>
+        <source>d6d22426c380e210d6d19883e401313c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-07 18:16:19</sys_created_on>
+        <sys_id>eebcf20bc34c62d07c3abdb4e40131dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19571d28fd10000001</sys_recorded_at>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-07 18:16:19</sys_updated_on>
+        <type>UX Event</type>
+        <u_link>[code]&lt;a title="sys_ux_event_b49a32c3c34c62d07c3abdb4e40131e1" class="linked" href="sys_ux_event.do?sys_id=b49a32c3c34c62d07c3abdb4e40131e1"&gt;sys_ux_event_b49a32c3c34c62d07c3abdb4e40131e1&lt;/a&gt;[/code]</u_link>
+        <update_guid>62bcf20b2c4c62d09846887de8fc59dd</update_guid>
+        <update_guid_history>62bcf20b2c4c62d09846887de8fc59dd:709002980</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-07 18:19:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>b639c98ad21d418f93a87232a22fb159</sys_id>
+        <sys_metadata>b49a32c3c34c62d07c3abdb4e40131e1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Link to destination Relay (Receive Device)</sys_name>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_scope_delete display_value="">8d27cd11fd0e41748c2fd7ef1ebdd871</sys_scope_delete>
+        <sys_update_name>sys_ux_event_b49a32c3c34c62d07c3abdb4e40131e1</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_b49a32c3c34c62d07c3abdb4e40131e1">eebcf20bc34c62d07c3abdb4e40131dd</sys_update_version>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-07 18:19:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

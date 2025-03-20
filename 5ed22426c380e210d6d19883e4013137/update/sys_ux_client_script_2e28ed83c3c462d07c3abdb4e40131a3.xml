@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Receive Device">631a9922c384e210d6d19883e4013181</macroponent>
+        <name>deviceCheck</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+  api,
+  event,
+  helpers,
+  imports
+}) {
+
+
+  var customer = api.state.selCompany;
+  if (api.state.addDevice == true) {
+      console.log("Add Device was true.");
+      var existingDevice = {};
+
+      if(api.data.existingDeviceCheck.results.length > 0){
+          existingDevice.company = api.data.existingDeviceCheck.results[0].company.value;
+          existingDevice.model = api.data.existingDeviceCheck.results[0].model.value;
+          existingDevice.serial_number = api.data.existingDeviceCheck.results[0].serial_number.value;
+      };
+
+      console.log("existingDevice obj is " + JSON.stringify(existingDevice));
+
+      if (
+          existingDevice.serial_number != '' &&
+          api.state.selCompany == existingDevice.company &&
+          api.state.selModel == existingDevice.model &&
+          api.state.selSerialNo == existingDevice.serial_number
+      ) {
+          console.log("Duplicate device discovered.");
+          api.setState('errorMessage', "This device already exists.");
+          return;
+      } else {
+          console.log("Add new device was true, model is " + api.state.selModel + " and sn is " + api.state.selSerialNo);
+          api.data.createNewDevice.execute({
+              table: 'alm_hardware',
+              templateFields: 'install_status=3^location=56c650dac333d290d6d19883e40131fd^company=' + customer + '^serial_number=' + api.state.selSerialNo + '^model=' + api.state.selModel,
+              useSetDisplayValue: null,
+          });
+      }
+
+
+  } else {
+    console.log("addNewDevice was false");
+    var device = api.state.selDevice;
+    console.log("selDevice is " + device + " and selCompany is " + customer);
+
+    submitItem();
+
+    function submitItem() {
+        helpers
+            .snHttp(
+                "/api/sn_sc/servicecatalog/items/77a7642ec380e210d6d19883e401313a/add_to_cart", {
+                    method: "POST",
+                    body: {
+                        sysparm_quantity: "1",
+                        sysparm_requestor: api.context.session.user.sys_id,
+                        sysparm_company: customer,
+                        sysparm_sys_domain: api.state.selDomain,
+                        variables: {
+                            customer: customer,
+                            device_reference: device,
+                        },
+                        get_portal_messages: "true",
+                        sysparm_no_validation: "true",
+                        engagement_channel: "ec",
+                    },
+                }
+            )
+            .then(({
+                response
+            }) => {
+                // handle POST request response
+                helpers
+                    .snHttp("/api/sn_sc/servicecatalog/cart/submit_order", {
+                        method: "POST",
+                    })
+                    .then(({
+                        response
+                    }) => {
+                        api.setState('reqId', response.result.request_id);
+                        getRITM();
+                    });
+            });
+
+
+    }
+
+
+    function getRITM() {
+        if (api.state.reqId != "") {
+            console.log("getritm reqid was " + api.state.reqId);
+            const timeoutId = helpers.timing.setTimeout(() => {
+                api.data.getRITM.refresh();
+            }, 1 * 1000);
+        }
+    }
+  }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-07 12:52:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2e28ed83c3c462d07c3abdb4e40131a3</sys_id>
+        <sys_mod_count>41</sys_mod_count>
+        <sys_name>deviceCheck</sys_name>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name>sys_ux_client_script_2e28ed83c3c462d07c3abdb4e40131a3</sys_update_name>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-19 20:05:34</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

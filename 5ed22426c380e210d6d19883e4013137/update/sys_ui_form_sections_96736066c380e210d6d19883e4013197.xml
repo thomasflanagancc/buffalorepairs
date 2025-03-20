@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="96736066c380e210d6d19883e4013197" sys_domain="global" table="sc_req_item" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a73a066c380e210d6d19883e40131be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sc_req_item" name="sc_req_item" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">96736066c380e210d6d19883e4013197</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sc_req_item" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">2673a066c380e210d6d19883e40131bc</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e273e066c380e210d6d19883e401312c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sc_req_item" name="sc_req_item" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">96736066c380e210d6d19883e4013197</sys_ui_form>
+            <sys_ui_section caption="Variables" display_value="Variables" name="sc_req_item" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">6273e066c380e210d6d19883e401312b</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-13 21:13:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f673e066c380e210d6d19883e4013170</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sc_req_item" name="sc_req_item" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">96736066c380e210d6d19883e4013197</sys_ui_form>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="sc_req_item" sys_domain="global" view="2d636c264a80e210b047a8a8d10817b3">7673e066c380e210d6d19883e401316f</sys_ui_section>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-13 21:13:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sc_req_item</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+            <sys_created_on>2025-03-05 17:49:47</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96736066c380e210d6d19883e4013197</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sc_req_item</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+            <sys_update_name>sys_ui_form_sections_96736066c380e210d6d19883e4013197</sys_update_name>
+            <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+            <sys_updated_on>2025-03-05 17:49:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Buffalo Repairs 0" name="workspace-buffalo-repairs-0">2d636c264a80e210b047a8a8d10817b3</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

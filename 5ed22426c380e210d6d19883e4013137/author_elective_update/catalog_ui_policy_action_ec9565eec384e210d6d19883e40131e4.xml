@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Receive Device">77a7642ec380e210d6d19883e401313a</catalog_item>
+        <catalog_variable>IO:9beaaceec380e210d6d19883e40131ed</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 22:38:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ec9565eec384e210d6d19883e40131e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>model</sys_name>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_ec9565eec384e210d6d19883e40131e4</sys_update_name>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 22:38:47</sys_updated_on>
+        <table/>
+        <ui_policy display_value="onChange of Add New Device">4665e1eec384e210d6d19883e4013127</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>model</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</application>
+        <file_path/>
+        <instance_id>e71bdd136f64de40869e7b2f5d3ee439</instance_id>
+        <instance_name>pivottsdev</instance_name>
+        <name>catalog_ui_policy_action_ec9565eec384e210d6d19883e40131e4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Receive Device">77a7642ec380e210d6d19883e401313a</catalog_item><catalog_variable>IO:9beaaceec380e210d6d19883e40131ed</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by><sys_created_on>2025-03-05 22:38:47</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>ec9565eec384e210d6d19883e40131e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>model</sys_name><sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope><sys_update_name>catalog_ui_policy_action_ec9565eec384e210d6d19883e40131e4</sys_update_name><sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by><sys_updated_on>2025-03-05 22:38:47</sys_updated_on><table/><ui_policy display_value="onChange of Add New Device">4665e1eec384e210d6d19883e4013127</ui_policy><value/><value_action>ignore</value_action><variable>model</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-666385663</payload_hash>
+        <record_name>model</record_name>
+        <reverted_from/>
+        <source>d6d22426c380e210d6d19883e401313c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-05 22:38:47</sys_created_on>
+        <sys_id>7f95a5eec384e210d6d19883e4013191</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195687624030000001</sys_recorded_at>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-05 22:38:47</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <u_link>[code]&lt;a title="catalog_ui_policy_action_ec9565eec384e210d6d19883e40131e4" class="linked" href="catalog_ui_policy_action.do?sys_id=ec9565eec384e210d6d19883e40131e4"&gt;catalog_ui_policy_action_ec9565eec384e210d6d19883e40131e4&lt;/a&gt;[/code]</u_link>
+        <update_guid>3395a5ee2784e210985acd07a8af2291</update_guid>
+        <update_guid_history>3395a5ee2784e210985acd07a8af2291:-666385663</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 03-07-2025 07:17:30 AM">929aa9c7c3c462d07c3abdb4e40131d3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-07 12:17:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>6e318d7875994831b5953c451c404cb1</sys_id>
+        <sys_metadata>ec9565eec384e210d6d19883e40131e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>model</sys_name>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_scope_delete display_value="">8d27cd11fd0e41748c2fd7ef1ebdd871</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_ec9565eec384e210d6d19883e40131e4</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_ec9565eec384e210d6d19883e40131e4">7f95a5eec384e210d6d19883e4013191</sys_update_version>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-07 12:17:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Receive Device">631a9922c384e210d6d19883e4013181</macroponent>
+        <name>setRITMId</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[
+/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+  api,
+  event,
+  helpers,
+  imports
+}) {
+
+
+
+  const timeoutId = helpers.timing.setTimeout(() => {
+    var req = api.state.reqId;
+    console.log("reqid is " + req + " and ritm req id is " + api.data.getRITM.results[0].request.value);
+    if (req != api.data.getRITM.results[0].request.value) {
+        api.setState('ritmId', '');
+        return;
+    } else {
+        api.setState('ritmId', api.data.getRITM.results[0]._row_data.uniqueValue);
+        api.setState('hideRITMButton', false);
+    }  }, 1 * 1000);
+
+
+
+
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>Thomas.Flanagan@pivotts.com</sys_created_by>
+        <sys_created_on>2025-03-07 15:54:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4657ca4bc34862d07c3abdb4e4013107</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>setRITMId</sys_name>
+        <sys_package display_value="Buffalo Repairs" source="x_pits_buffalo_r_0">5ed22426c380e210d6d19883e4013137</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Buffalo Repairs">5ed22426c380e210d6d19883e4013137</sys_scope>
+        <sys_update_name>sys_ux_client_script_4657ca4bc34862d07c3abdb4e4013107</sys_update_name>
+        <sys_updated_by>Thomas.Flanagan@pivotts.com</sys_updated_by>
+        <sys_updated_on>2025-03-13 18:33:33</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
