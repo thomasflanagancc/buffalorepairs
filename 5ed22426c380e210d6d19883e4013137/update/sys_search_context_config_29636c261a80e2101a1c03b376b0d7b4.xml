@@ -4,6 +4,7 @@
         <collapse_attachment>false</collapse_attachment>
         <enable_exact_match>true</enable_exact_match>
         <evam_definition/>
+        <filter_genius_results_by_search_source>false</filter_genius_results_by_search_source>
         <genius_results_limit/>
         <hit_highlighting>false</hit_highlighting>
         <log_signals_server_side>false</log_signals_server_side>

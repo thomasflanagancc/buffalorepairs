@@ -8,10 +8,10 @@
         <derived>true</derived>
         <field/>
         <label>buffalo-repairs Search Profile Default Spell Check Dictionary</label>
-        <last_derived>2025-03-20 06:27:00</last_derived>
+        <last_derived>2025-03-28 13:26:59</last_derived>
         <locale>en</locale>
         <name>x_pits_buffalo_r_0_buffalo_repairs_search_profile_default_spell_check_dictionary</name>
-        <publish_id>4f05ffd2-aba6-4191-a635-e960770e47fd</publish_id>
+        <publish_id>70e61d83-96c7-4451-9a9e-7aa9c12c534b</publish_id>
         <punctuation_sensitive>false</punctuation_sensitive>
         <state>PUBLISHED</state>
         <sys_class_name>ais_dictionary</sys_class_name>
